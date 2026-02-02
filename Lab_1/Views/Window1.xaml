@@ -10,8 +10,8 @@
     <UserControl.DataContext>
         <viewModels:First_page />
     </UserControl.DataContext>
-    
-    <Grid Margin="10">
+
+    <Grid Margin="16,20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -19,17 +19,15 @@
 
         <TextBlock Grid.Row="0"
                    Text="Привязка по умолчанию (Default Binding)"
-                   FontSize="18"
-                   FontWeight="Bold"
-                   Margin="0,0,0,20" />
+                   Style="{StaticResource PageTitle}" />
 
         <ScrollViewer Grid.Row="1">
             <StackPanel>
                 <GroupBox Header="Прямая привязка к элементам интерфейса"
                           Margin="0,0,0,20">
-                    <StackPanel Margin="10">
+                    <StackPanel Margin="0,4,0,0">
                         <TextBlock Text="Привязка TextBox к TextBlock (по умолчанию - TwoWay для TextBox):"
-                                   Margin="0,0,0,5" />
+                                   Style="{StaticResource SectionLabel}" />
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -44,7 +42,8 @@
                         </Grid>
 
                         <TextBlock Text="Привязка CheckBox к TextBlock:"
-                                   Margin="0,15,0,5" />
+                                   Style="{StaticResource SectionLabel}"
+                                   Margin="0,14,0,0" />
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -60,7 +59,8 @@
                         </Grid>
 
                         <TextBlock Text="Привязка Slider к TextBlock:"
-                                   Margin="0,15,0,5" />
+                                   Style="{StaticResource SectionLabel}"
+                                   Margin="0,14,0,0" />
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -79,9 +79,9 @@
                 </GroupBox>
 
                 <GroupBox Header="Привязка через ViewModel">
-                    <StackPanel Margin="10">
+                    <StackPanel Margin="0,4,0,0">
                         <TextBlock Text="Привязка TextBox к ViewModel (по умолчанию - TwoWay):"
-                                   Margin="0,0,0,5" />
+                                   Style="{StaticResource SectionLabel}" />
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -95,7 +95,8 @@
                         </Grid>
 
                         <TextBlock Text="Привязка NumericUpDown (TextBox) к ViewModel:"
-                                   Margin="0,15,0,5" />
+                                   Style="{StaticResource SectionLabel}"
+                                   Margin="0,14,0,0" />
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -109,7 +110,8 @@
                         </Grid>
 
                         <TextBlock Text="Привязка DatePicker к ViewModel:"
-                                   Margin="0,15,0,5" />
+                                   Style="{StaticResource SectionLabel}"
+                                   Margin="0,14,0,0" />
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -123,7 +125,8 @@
                         </Grid>
 
                         <TextBlock Text="Привязка CheckBox к ViewModel:"
-                                   Margin="0,15,0,5" />
+                                   Style="{StaticResource SectionLabel}"
+                                   Margin="0,14,0,0" />
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
