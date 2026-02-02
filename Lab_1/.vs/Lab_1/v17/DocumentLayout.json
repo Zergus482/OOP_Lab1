@@ -1,42 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\",
+  "WorkspaceRootPath": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\view\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:view\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\triggers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\triggers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\view\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:view\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\viewmodel\\first_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:viewmodel\\first_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\viewmodel\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:viewmodel\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\view\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:view\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\oneway.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\oneway.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\view\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:view\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\viewmodel\\page2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:viewmodel\\page2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\viewmodels\\triggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:viewmodels\\triggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\lab_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\triggers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\triggers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\viewmodels\\oneway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:viewmodels\\oneway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\viewmodels\\page2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:viewmodels\\page2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\viewmodels\\onetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:viewmodels\\onetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\onetime.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\onetime.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\viewmodels\\first_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:viewmodels\\first_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\obj\\Debug\\net8.0-windows\\View\\Page2.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\View\\Page2.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,113 +85,178 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ViewModel.cs",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\ViewModel\\ViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\ViewModel.cs",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\ViewModel\\ViewModel.cs",
-              "RelativeToolTip": "ViewModel\\ViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T16:52:27.209Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Page2.cs",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\ViewModel\\Page2.cs",
-              "RelativeDocumentMoniker": "ViewModel\\Page2.cs",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\ViewModel\\Page2.cs",
-              "RelativeToolTip": "ViewModel\\Page2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Triggers.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\Triggers.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Triggers.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\Triggers.cs",
+              "RelativeToolTip": "ViewModels\\Triggers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T16:08:50.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Page2.xaml.cs",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\View\\Page2.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Page2.xaml.cs",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\View\\Page2.xaml.cs",
-              "RelativeToolTip": "View\\Page2.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T16:00:22.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Page2.xaml",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\View\\Page2.xaml",
-              "RelativeDocumentMoniker": "View\\Page2.xaml",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\View\\Page2.xaml",
-              "RelativeToolTip": "View\\Page2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-27T15:57:56.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "First_page.cs",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\ViewModel\\First_page.cs",
-              "RelativeDocumentMoniker": "ViewModel\\First_page.cs",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\ViewModel\\First_page.cs",
-              "RelativeToolTip": "ViewModel\\First_page.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T20:30:02.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T16:55:22.241Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Window1.xaml.cs",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\View\\Window1.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Window1.xaml.cs",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\View\\Window1.xaml.cs",
-              "RelativeToolTip": "View\\Window1.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Window1.xaml.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
+              "RelativeToolTip": "Views\\Window1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T20:14:21.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T16:54:58.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml",
+              "RelativeDocumentMoniker": "Views\\Window1.xaml",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml",
+              "RelativeToolTip": "Views\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T16:15:11.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OneWay.xaml",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\OneWay.xaml",
+              "RelativeDocumentMoniker": "Views\\OneWay.xaml",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\OneWay.xaml",
+              "RelativeToolTip": "Views\\OneWay.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T16:37:49.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-26T19:24:49.712Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Window1.xaml",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\View\\Window1.xaml",
-              "RelativeDocumentMoniker": "View\\Window1.xaml",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\View\\Window1.xaml",
-              "RelativeToolTip": "View\\Window1.xaml",
+              "Title": "Triggers.xaml.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Triggers.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Triggers.xaml.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Triggers.xaml.cs",
+              "RelativeToolTip": "Views\\Triggers.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:54:28.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Triggers.xaml",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Triggers.xaml",
+              "RelativeDocumentMoniker": "Views\\Triggers.xaml",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Triggers.xaml",
+              "RelativeToolTip": "Views\\Triggers.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-26T19:28:01.033Z",
+              "WhenOpened": "2026-02-02T16:52:35.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
+              "DocumentIndex": 12,
+              "Title": "OneTime.xaml",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\OneTime.xaml",
+              "RelativeDocumentMoniker": "Views\\OneTime.xaml",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\OneTime.xaml",
+              "RelativeToolTip": "Views\\OneTime.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-26T19:24:49.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T16:13:57.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OneTime.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\OneTime.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OneTime.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\OneTime.cs",
+              "RelativeToolTip": "ViewModels\\OneTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:13:22.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Page2.xaml",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Page2.xaml",
+              "RelativeDocumentMoniker": "Views\\Page2.xaml",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Page2.xaml",
+              "RelativeToolTip": "Views\\Page2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-27T15:57:56.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Page2.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\Page2.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Page2.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\Page2.cs",
+              "RelativeToolTip": "ViewModels\\Page2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T16:08:50.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "First_page.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\First_page.cs",
+              "RelativeDocumentMoniker": "ViewModels\\First_page.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\First_page.cs",
+              "RelativeToolTip": "ViewModels\\First_page.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:27:17.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OneWay.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\OneWay.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OneWay.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\ViewModels\\OneWay.cs",
+              "RelativeToolTip": "ViewModels\\OneWay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:38:14.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Page2.g.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\obj\\Debug\\net8.0-windows\\View\\Page2.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\View\\Page2.g.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\obj\\Debug\\net8.0-windows\\View\\Page2.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\View\\Page2.g.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:49:29.85Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\MainWindow.xaml.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\Lab_1\\MainWindow.xaml.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

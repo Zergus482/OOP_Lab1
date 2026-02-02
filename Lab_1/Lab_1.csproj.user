@@ -2,10 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="View\Page2.xaml.cs">
+    <Compile Update="Views\Triggers.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Window1.xaml.cs">
+    <Compile Update="Views\Page2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneTime.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneWay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Window1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
