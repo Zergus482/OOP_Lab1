@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Lab_1.ViewModels
 {
-    class Triggers : ViewModelBase
+    /// <summary>
+    /// ViewModel для вкладки "Триггеры" (CommunityToolkit.Mvvm).
+    /// </summary>
+    public partial class Triggers : ObservableObject
     {
     }
 }

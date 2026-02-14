@@ -1,51 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Lab_1.ViewModels
 {
-    public class OneWay : ViewModelBase
+    /// <summary>
+    /// ViewModel для вкладки "Односторонние привязки" (CommunityToolkit.Mvvm).
+    /// </summary>
+    public partial class OneWay : ObservableObject
     {
+        [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(DisplayText))]
         private string _sourceText = "Исходный текст";
+
+        [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(DisplayText))]
         private int _sourceNumber = 200;
-        private DateTime _currentTime = DateTime.Now;
+
+        [ObservableProperty]
         private string _computedValue = "Вычисленное значение";
 
-        public string SourceText
+        partial void OnSourceTextChanged(string value)
         {
-            get => _sourceText;
-            set
-            {
-                SetProperty(ref _sourceText, value);
-                ComputedValue = $"Обработанный: {value}";
-                OnPropertyChanged(nameof(DisplayText));
-            }
+            ComputedValue = $"Обработанный: {value}";
         }
 
-        public int SourceNumber
-        {
-            get => _sourceNumber;
-            set
-            {
-                SetProperty(ref _sourceNumber, value);
-                OnPropertyChanged(nameof(DisplayText));
-            }
-        }
-
-        public DateTime CurrentTime
-        {
-            get => _currentTime;
-            set => SetProperty(ref _currentTime, value);
-        }
-
-        public string ComputedValue
-        {
-            get => _computedValue;
-            set => SetProperty(ref _computedValue, value);
-        }
-
+        /// <summary>
+        /// Вычисляемое свойство: обновляется при изменении SourceText или SourceNumber.
+        /// </summary>
         public string DisplayText => $"Текст: {SourceText}, Число: {SourceNumber}";
     }
 }

@@ -56,3 +56,6 @@ A:\PolyTech\ООП\2 Семестр\OOP_Lab1\Lab_1\obj\Debug\net8.0-windows\View
 A:\PolyTech\ООП\2 Семестр\OOP_Lab1\Lab_1\obj\Debug\net8.0-windows\Views\Triggers.g.cs
 A:\PolyTech\ООП\2 Семестр\OOP_Lab1\Lab_1\obj\Debug\net8.0-windows\Views\Triggers.baml
 A:\PolyTech\ООП\2 Семестр\OOP_Lab1\Lab_1\obj\Debug\net8.0-windows\App.baml
+A:\PolyTech\ООП\2 Семестр\OOP_Lab1\Lab_1\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+A:\PolyTech\ООП\2 Семестр\OOP_Lab1\Lab_1\obj\Debug\net8.0-windows\Lab_1.csproj.AssemblyReference.cache
+A:\PolyTech\ООП\2 Семестр\OOP_Lab1\Lab_1\obj\Debug\net8.0-windows\Lab_1.csproj.Up2Date

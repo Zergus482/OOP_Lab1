@@ -1,65 +1,34 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Lab_1.ViewModels
 {
-    public class Page2 : ViewModelBase
+    /// <summary>
+    /// ViewModel для вкладки "Двухсторонняя привязка" (CommunityToolkit.Mvvm).
+    /// </summary>
+    public partial class Page2 : ObservableObject
     {
+        [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(FullInfo))]
         private string _name = "Иван";
+
+        [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(FullInfo))]
         private string _surname = "Иванов";
+
+        [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(FullInfo))]
         private int _age = 25;
+
+        [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(FullInfo))]
         private string _email = "ivan@example.com";
+
+        [ObservableProperty]
         private double _sliderValue = 50.0;
 
-        public string Name
-        {
-            get => _name;
-            set
-            {
-                SetProperty(ref _name, value);
-                OnPropertyChanged(nameof(FullInfo));
-            }
-        }
-
-        public string Surname
-        {
-            get => _surname;
-            set
-            {
-                SetProperty(ref _surname, value);
-                OnPropertyChanged(nameof(FullInfo));
-            }
-        }
-
-        public int Age
-        {
-            get => _age;
-            set
-            {
-                SetProperty(ref _age, value);
-                OnPropertyChanged(nameof(FullInfo));
-            }
-        }
-
-        public string Email
-        {
-            get => _email;
-            set
-            {
-                SetProperty(ref _email, value);
-                OnPropertyChanged(nameof(FullInfo));
-            }
-        }
-
-        public double SliderValue
-        {
-            get => _sliderValue;
-            set => SetProperty(ref _sliderValue, value);
-        }
-
+        /// <summary>
+        /// Вычисляемое свойство: обновляется при изменении Name, Surname, Age или Email.
+        /// </summary>
         public string FullInfo => $"{Name} {Surname}, {Age} лет, {Email}";
     }
 }
