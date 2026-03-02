@@ -4,69 +4,76 @@
              xmlns:local="clr-namespace:Lab_1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <!-- Палитра приложения -->
-        <SolidColorBrush x:Key="AppBackground" Color="#F0F4F8"/>
-        <SolidColorBrush x:Key="CardBackground" Color="#FFFFFF"/>
-        <SolidColorBrush x:Key="Accent" Color="#4A6FA5"/>
-        <SolidColorBrush x:Key="AccentLight" Color="#6B8EC4"/>
-        <SolidColorBrush x:Key="TextPrimary" Color="#2C3E50"/>
-        <SolidColorBrush x:Key="TextSecondary" Color="#5A6C7D"/>
-        <SolidColorBrush x:Key="Border" Color="#DDE2E8"/>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Язык по умолчанию: русский -->
+                <ResourceDictionary Source="Resources/Strings.ru.xaml" />
+            </ResourceDictionary.MergedDictionaries>
 
-        <!-- Окно по умолчанию -->
-        <Style TargetType="Window">
-            <Setter Property="Background" Value="{StaticResource AppBackground}"/>
-            <Setter Property="FontFamily" Value="Segoe UI"/>
-        </Style>
+            <!-- Палитра приложения -->
+            <SolidColorBrush x:Key="AppBackground" Color="#F0F4F8"/>
+            <SolidColorBrush x:Key="CardBackground" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="Accent" Color="#4A6FA5"/>
+            <SolidColorBrush x:Key="AccentLight" Color="#6B8EC4"/>
+            <SolidColorBrush x:Key="TextPrimary" Color="#2C3E50"/>
+            <SolidColorBrush x:Key="TextSecondary" Color="#5A6C7D"/>
+            <SolidColorBrush x:Key="Border" Color="#DDE2E8"/>
 
-        <!-- TabControl: только цвета и отступы, без замены шаблона -->
-        <Style TargetType="TabControl">
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Padding" Value="12,8"/>
-            <Setter Property="BorderThickness" Value="0"/>
-        </Style>
+            <!-- Окно по умолчанию -->
+            <Style TargetType="Window">
+                <Setter Property="Background" Value="{StaticResource AppBackground}"/>
+                <Setter Property="FontFamily" Value="Segoe UI"/>
+            </Style>
 
-        <!-- TabItem: отступы и шрифт, без замены шаблона -->
-        <Style TargetType="TabItem">
-            <Setter Property="Padding" Value="14,8"/>
-            <Setter Property="FontSize" Value="13"/>
-            <Setter Property="FontWeight" Value="SemiBold"/>
-            <Setter Property="Foreground" Value="{StaticResource TextSecondary}"/>
-            <Setter Property="Background" Value="Transparent"/>
-        </Style>
+            <!-- TabControl: только цвета и отступы, без замены шаблона -->
+            <Style TargetType="TabControl">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Padding" Value="12,8"/>
+                <Setter Property="BorderThickness" Value="0"/>
+            </Style>
 
-        <!-- GroupBox: только цвета и отступы, без замены шаблона -->
-        <Style TargetType="GroupBox">
-            <Setter Property="Background" Value="{StaticResource CardBackground}"/>
-            <Setter Property="BorderBrush" Value="{StaticResource Border}"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="Padding" Value="12,10"/>
-            <Setter Property="Margin" Value="0,0,0,14"/>
-        </Style>
+            <!-- TabItem: отступы и шрифт, без замены шаблона -->
+            <Style TargetType="TabItem">
+                <Setter Property="Padding" Value="14,8"/>
+                <Setter Property="FontSize" Value="13"/>
+                <Setter Property="FontWeight" Value="SemiBold"/>
+                <Setter Property="Foreground" Value="{StaticResource TextSecondary}"/>
+                <Setter Property="Background" Value="Transparent"/>
+            </Style>
 
-        <!-- TextBox -->
-        <Style TargetType="TextBox">
-            <Setter Property="Padding" Value="8,6"/>
-            <Setter Property="BorderBrush" Value="{StaticResource Border}"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="FontSize" Value="13"/>
-            <Setter Property="CaretBrush" Value="{StaticResource Accent}"/>
-        </Style>
+            <!-- GroupBox: только цвета и отступы, без замены шаблона -->
+            <Style TargetType="GroupBox">
+                <Setter Property="Background" Value="{StaticResource CardBackground}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource Border}"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="Padding" Value="12,10"/>
+                <Setter Property="Margin" Value="0,0,0,14"/>
+            </Style>
 
-        <!-- Заголовок страницы (используется как Style="{StaticResource PageTitle}") -->
-        <Style x:Key="PageTitle" TargetType="TextBlock">
-            <Setter Property="FontSize" Value="20"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Foreground" Value="{StaticResource TextPrimary}"/>
-            <Setter Property="Margin" Value="0,0,0,16"/>
-        </Style>
+            <!-- TextBox -->
+            <Style TargetType="TextBox">
+                <Setter Property="Padding" Value="8,6"/>
+                <Setter Property="BorderBrush" Value="{StaticResource Border}"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="FontSize" Value="13"/>
+                <Setter Property="CaretBrush" Value="{StaticResource Accent}"/>
+            </Style>
 
-        <!-- Подзаголовок в группе (используется как Style="{StaticResource SectionLabel}") -->
-        <Style x:Key="SectionLabel" TargetType="TextBlock">
-            <Setter Property="FontSize" Value="13"/>
-            <Setter Property="Foreground" Value="{StaticResource TextSecondary}"/>
-            <Setter Property="Margin" Value="0,0,0,6"/>
-        </Style>
+            <!-- Заголовок страницы (используется как Style="{StaticResource PageTitle}") -->
+            <Style x:Key="PageTitle" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Foreground" Value="{StaticResource TextPrimary}"/>
+                <Setter Property="Margin" Value="0,0,0,16"/>
+            </Style>
+
+            <!-- Подзаголовок в группе (используется как Style="{StaticResource SectionLabel}") -->
+            <Style x:Key="SectionLabel" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="13"/>
+                <Setter Property="Foreground" Value="{StaticResource TextSecondary}"/>
+                <Setter Property="Margin" Value="0,0,0,6"/>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

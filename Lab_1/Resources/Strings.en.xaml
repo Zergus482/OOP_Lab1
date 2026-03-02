@@ -1,0 +1,102 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+  <!-- Main window and tabs -->
+  <sys:String x:Key="MainWindow_Title">Lab Work 1 — Data Bindings</sys:String>
+
+  <sys:String x:Key="Tab_DefaultBinding">Default binding</sys:String>
+  <sys:String x:Key="Tab_TwoWay">Two-way binding</sys:String>
+  <sys:String x:Key="Tab_OneTime">One-time binding</sys:String>
+  <sys:String x:Key="Tab_OneWay">One-way bindings</sys:String>
+  <sys:String x:Key="Tab_Triggers">Triggers</sys:String>
+
+  <sys:String x:Key="Page_DefaultBinding_Title">Default binding</sys:String>
+  <sys:String x:Key="Page_TwoWay_Title">Two-way binding</sys:String>
+  <sys:String x:Key="Page_OneTime_Title">One-time binding</sys:String>
+  <sys:String x:Key="Page_OneWay_Title">One-way bindings</sys:String>
+  <sys:String x:Key="Page_Triggers_Title">Triggers</sys:String>
+
+  <!-- Default binding page (Window1) -->
+  <sys:String x:Key="Default_Group_DirectBinding_Header">Direct binding to UI elements</sys:String>
+  <sys:String x:Key="Default_Label_TextBoxToTextBlock">Bind TextBox to TextBlock (default - TwoWay for TextBox):</sys:String>
+  <sys:String x:Key="Default_TextBox_EnterText">Enter text</sys:String>
+  <sys:String x:Key="Default_Label_CheckBoxToTextBlock">Bind CheckBox to TextBlock:</sys:String>
+  <sys:String x:Key="Default_CheckBox_Content_Selected">Selected</sys:String>
+  <sys:String x:Key="Default_Label_SliderToTextBlock">Bind Slider to TextBlock:</sys:String>
+
+  <sys:String x:Key="Default_Label_ViewModel_Header">Binding via ViewModel</sys:String>
+  <sys:String x:Key="Default_Label_TextBox_ViewModel">Bind TextBox to ViewModel (default - TwoWay):</sys:String>
+  <sys:String x:Key="Default_Label_Numeric_ViewModel">Bind NumericUpDown (TextBox) to ViewModel:</sys:String>
+  <sys:String x:Key="Default_Label_Date_ViewModel">Bind DatePicker to ViewModel:</sys:String>
+  <sys:String x:Key="Default_Label_CheckBox_ViewModel">Bind CheckBox to ViewModel:</sys:String>
+
+  <!-- Two-way binding page (Page2) -->
+  <sys:String x:Key="TwoWay_Group_Direct_Header">Direct two-way binding between elements</sys:String>
+  <sys:String x:Key="TwoWay_Label_TwoTextBoxes">Two TextBoxes are connected with two-way binding:</sys:String>
+  <sys:String x:Key="TwoWay_Label_SliderAndTextBox">Slider and TextBox are connected with two-way binding:</sys:String>
+
+  <sys:String x:Key="TwoWay_Group_ViewModel_Header">Two-way binding via ViewModel</sys:String>
+  <sys:String x:Key="TwoWay_Label_Name">First name (changes are synchronized):</sys:String>
+  <sys:String x:Key="TwoWay_Label_Surname">Last name:</sys:String>
+  <sys:String x:Key="TwoWay_Label_Age">Age:</sys:String>
+  <sys:String x:Key="TwoWay_Label_Email">Email:</sys:String>
+  <sys:String x:Key="TwoWay_Label_Slider">Slider (two-way binding):</sys:String>
+  <sys:String x:Key="TwoWay_Label_FullInfo">Full information (calculated property):</sys:String>
+
+  <!-- One-time binding page (OneTime) -->
+  <sys:String x:Key="OneTime_Group_Direct_Header">Direct one-time binding to elements</sys:String>
+  <sys:String x:Key="OneTime_Label_DirectDescription">One-time binding (value is loaded once and not updated):</sys:String>
+  <sys:String x:Key="OneTime_TextBox_InitialText">Initial value</sys:String>
+  <sys:String x:Key="OneTime_Label_TextDoesNotUpdate">Changing the source TextBox will not update the TextBlock above</sys:String>
+
+  <sys:String x:Key="OneTime_Group_ViewModel_Header">One-time binding via ViewModel</sys:String>
+  <sys:String x:Key="OneTime_Label_InitialValue">Initial value (loaded once):</sys:String>
+  <sys:String x:Key="OneTime_Label_InitialNumber">Initial number:</sys:String>
+  <sys:String x:Key="OneTime_Label_StaticText">Static text (OneTime):</sys:String>
+
+  <!-- One-way binding page (OneWay) -->
+  <sys:String x:Key="OneWay_Group_Direct_Header">Direct one-way binding (from source to target)</sys:String>
+  <sys:String x:Key="OneWay_Label_SliderToTextBlock">Slider → TextBlock (changes in Slider update TextBlock):</sys:String>
+  <sys:String x:Key="OneWay_Label_TextBoxToTextBlock">TextBox → TextBlock (changes in TextBox update TextBlock):</sys:String>
+  <sys:String x:Key="OneWay_Label_TextDoesNotAffectSource">Changes in TextBlock do not affect the source</sys:String>
+
+  <sys:String x:Key="OneWay_Group_ViewModel_Header">One-way binding via ViewModel</sys:String>
+  <sys:String x:Key="OneWay_Label_SourceText">Source text (changes update the view):</sys:String>
+  <sys:String x:Key="OneWay_Label_SourceNumber">Source number:</sys:String>
+  <sys:String x:Key="OneWay_Label_ComputedValue">Computed value (updates automatically):</sys:String>
+  <sys:String x:Key="OneWay_Label_DisplayText">Combined display:</sys:String>
+  <sys:String x:Key="OneWay_Label_SourcesUpdateTargets">Changes in sources automatically update all elements with OneWay binding</sys:String>
+
+  <!-- Triggers page -->
+  <sys:String x:Key="Triggers_Group_Property_Header">Property Trigger</sys:String>
+  <sys:String x:Key="Triggers_Label_Property_Description">Changing a property of an element fires a trigger:</sys:String>
+  <sys:String x:Key="Triggers_Button_Hover">Hover mouse</sys:String>
+  <sys:String x:Key="Triggers_Label_Property_Info">Trigger fires when IsMouseOver=True and IsPressed=True</sys:String>
+
+  <sys:String x:Key="Triggers_Group_Data_Header">Data Trigger</sys:String>
+  <sys:String x:Key="Triggers_Label_Data_Description">Trigger fires when the bound property changes:</sys:String>
+  <sys:String x:Key="Triggers_CheckBox_Enable">Enable trigger</sys:String>
+  <sys:String x:Key="Triggers_Label_Data_BlockText">This block will change color when the checkbox is checked</sys:String>
+  <sys:String x:Key="Triggers_Label_Data_Info">Trigger fires when IsChecked=True</sys:String>
+
+  <sys:String x:Key="Triggers_Group_MultiData_Header">Multi Data Trigger</sys:String>
+  <sys:String x:Key="Triggers_Label_MultiData_Description">Trigger fires only when all conditions are met (uses bindings):</sys:String>
+  <sys:String x:Key="Triggers_CheckBox_Cond1">Condition 1</sys:String>
+  <sys:String x:Key="Triggers_CheckBox_Cond2">Condition 2</sys:String>
+  <sys:String x:Key="Triggers_Button_Multi">Button becomes enabled when both conditions are met</sys:String>
+  <sys:String x:Key="Triggers_Label_MultiData_Info">Button is enabled only when both checkboxes are checked</sys:String>
+
+  <sys:String x:Key="Triggers_Group_Event_Header">Event Trigger</sys:String>
+  <sys:String x:Key="Triggers_Label_Event_Description">Trigger fires when an event occurs:</sys:String>
+  <sys:String x:Key="Triggers_Button_Event">Click for animation</sys:String>
+  <sys:String x:Key="Triggers_Label_Event_Info">Animation starts on Click, MouseEnter and MouseLeave</sys:String>
+
+  <sys:String x:Key="Triggers_Group_Compare_Header">Comparison of trigger types</sys:String>
+  <sys:String x:Key="Triggers_Label_Compare_Property">Property Trigger: reacts to changes of element properties</sys:String>
+  <sys:String x:Key="Triggers_Label_Compare_Data">Data Trigger: reacts to changes of bound data</sys:String>
+  <sys:String x:Key="Triggers_Label_Compare_MultiData">Multi Data Trigger: requires multiple conditions to be met at once (works with bindings)</sys:String>
+  <sys:String x:Key="Triggers_Label_Compare_Event">Event Trigger: reacts to events and can start animations</sys:String>
+
+</ResourceDictionary>
+

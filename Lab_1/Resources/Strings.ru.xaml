@@ -1,0 +1,102 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+  <!-- Main window and tabs -->
+  <sys:String x:Key="MainWindow_Title">Лабораторная работа 1 — Привязки данных</sys:String>
+
+  <sys:String x:Key="Tab_DefaultBinding">Привязка по умолчанию</sys:String>
+  <sys:String x:Key="Tab_TwoWay">Двухсторонняя привязка</sys:String>
+  <sys:String x:Key="Tab_OneTime">Одноразовая привязка</sys:String>
+  <sys:String x:Key="Tab_OneWay">Односторонние привязки</sys:String>
+  <sys:String x:Key="Tab_Triggers">Триггеры</sys:String>
+
+  <sys:String x:Key="Page_DefaultBinding_Title">Привязка по умолчанию (Default Binding)</sys:String>
+  <sys:String x:Key="Page_TwoWay_Title">Двусторонняя привязка</sys:String>
+  <sys:String x:Key="Page_OneTime_Title">Одноразовая привязка (OneTime Binding)</sys:String>
+  <sys:String x:Key="Page_OneWay_Title">Односторонние привязки (OneWay Binding)</sys:String>
+  <sys:String x:Key="Page_Triggers_Title">Триггеры (Triggers)</sys:String>
+
+  <!-- Default binding page (Window1) -->
+  <sys:String x:Key="Default_Group_DirectBinding_Header">Прямая привязка к элементам интерфейса</sys:String>
+  <sys:String x:Key="Default_Label_TextBoxToTextBlock">Привязка TextBox к TextBlock (по умолчанию - TwoWay для TextBox):</sys:String>
+  <sys:String x:Key="Default_TextBox_EnterText">Введите текст</sys:String>
+  <sys:String x:Key="Default_Label_CheckBoxToTextBlock">Привязка CheckBox к TextBlock:</sys:String>
+  <sys:String x:Key="Default_CheckBox_Content_Selected">Выбрано</sys:String>
+  <sys:String x:Key="Default_Label_SliderToTextBlock">Привязка Slider к TextBlock:</sys:String>
+
+  <sys:String x:Key="Default_Label_ViewModel_Header">Привязка через ViewModel</sys:String>
+  <sys:String x:Key="Default_Label_TextBox_ViewModel">Привязка TextBox к ViewModel (по умолчанию - TwoWay):</sys:String>
+  <sys:String x:Key="Default_Label_Numeric_ViewModel">Привязка NumericUpDown (TextBox) к ViewModel:</sys:String>
+  <sys:String x:Key="Default_Label_Date_ViewModel">Привязка DatePicker к ViewModel:</sys:String>
+  <sys:String x:Key="Default_Label_CheckBox_ViewModel">Привязка CheckBox к ViewModel:</sys:String>
+
+  <!-- Two-way binding page (Page2) -->
+  <sys:String x:Key="TwoWay_Group_Direct_Header">Прямая двухсторонняя привязка между элементами</sys:String>
+  <sys:String x:Key="TwoWay_Label_TwoTextBoxes">Два TextBox связаны двухсторонней привязкой:</sys:String>
+  <sys:String x:Key="TwoWay_Label_SliderAndTextBox">Slider и TextBox связаны двухсторонней привязкой:</sys:String>
+
+  <sys:String x:Key="TwoWay_Group_ViewModel_Header">Двухсторонняя привязка через ViewModel</sys:String>
+  <sys:String x:Key="TwoWay_Label_Name">Имя (изменения синхронизируются):</sys:String>
+  <sys:String x:Key="TwoWay_Label_Surname">Фамилия:</sys:String>
+  <sys:String x:Key="TwoWay_Label_Age">Возраст:</sys:String>
+  <sys:String x:Key="TwoWay_Label_Email">Email:</sys:String>
+  <sys:String x:Key="TwoWay_Label_Slider">Slider (двухсторонняя привязка):</sys:String>
+  <sys:String x:Key="TwoWay_Label_FullInfo">Полная информация (вычисляемое свойство):</sys:String>
+
+  <!-- One-time binding page (OneTime) -->
+  <sys:String x:Key="OneTime_Group_Direct_Header">Прямая одноразовая привязка к элементам</sys:String>
+  <sys:String x:Key="OneTime_Label_DirectDescription">Одноразовая привязка (значение загружается один раз и не обновляется):</sys:String>
+  <sys:String x:Key="OneTime_TextBox_InitialText">Начальное значение</sys:String>
+  <sys:String x:Key="OneTime_Label_TextDoesNotUpdate">Изменение исходного TextBox не обновит TextBlock выше</sys:String>
+
+  <sys:String x:Key="OneTime_Group_ViewModel_Header">Одноразовая привязка через ViewModel</sys:String>
+  <sys:String x:Key="OneTime_Label_InitialValue">Начальное значение (загружается один раз):</sys:String>
+  <sys:String x:Key="OneTime_Label_InitialNumber">Начальное число:</sys:String>
+  <sys:String x:Key="OneTime_Label_StaticText">Статический текст (OneTime):</sys:String>
+
+  <!-- One-way binding page (OneWay) -->
+  <sys:String x:Key="OneWay_Group_Direct_Header">Прямая односторонняя привязка (от источника к цели)</sys:String>
+  <sys:String x:Key="OneWay_Label_SliderToTextBlock">Slider → TextBlock (изменения Slider обновляют TextBlock):</sys:String>
+  <sys:String x:Key="OneWay_Label_TextBoxToTextBlock">TextBox → TextBlock (изменения TextBox обновляют TextBlock):</sys:String>
+  <sys:String x:Key="OneWay_Label_TextDoesNotAffectSource">Изменения в TextBlock не влияют на источник</sys:String>
+
+  <sys:String x:Key="OneWay_Group_ViewModel_Header">Односторонняя привязка через ViewModel</sys:String>
+  <sys:String x:Key="OneWay_Label_SourceText">Исходный текст (изменения обновляют отображение):</sys:String>
+  <sys:String x:Key="OneWay_Label_SourceNumber">Исходное число:</sys:String>
+  <sys:String x:Key="OneWay_Label_ComputedValue">Вычисляемое значение (обновляется автоматически):</sys:String>
+  <sys:String x:Key="OneWay_Label_DisplayText">Комбинированное отображение:</sys:String>
+  <sys:String x:Key="OneWay_Label_SourcesUpdateTargets">Изменения в источниках автоматически обновляют все элементы с OneWay привязкой</sys:String>
+
+  <!-- Triggers page -->
+  <sys:String x:Key="Triggers_Group_Property_Header">Property Trigger (Триггер свойства)</sys:String>
+  <sys:String x:Key="Triggers_Label_Property_Description">Изменение свойства элемента вызывает триггер:</sys:String>
+  <sys:String x:Key="Triggers_Button_Hover">Наведите курсор</sys:String>
+  <sys:String x:Key="Triggers_Label_Property_Info">Триггер срабатывает при IsMouseOver=True и IsPressed=True</sys:String>
+
+  <sys:String x:Key="Triggers_Group_Data_Header">Data Trigger (Триггер данных)</sys:String>
+  <sys:String x:Key="Triggers_Label_Data_Description">Триггер срабатывает при изменении привязанного свойства:</sys:String>
+  <sys:String x:Key="Triggers_CheckBox_Enable">Включить триггер</sys:String>
+  <sys:String x:Key="Triggers_Label_Data_BlockText">Этот блок изменит цвет при установке флажка</sys:String>
+  <sys:String x:Key="Triggers_Label_Data_Info">Триггер срабатывает при IsChecked=True</sys:String>
+
+  <sys:String x:Key="Triggers_Group_MultiData_Header">Multi Data Trigger (Множественный триггер данных)</sys:String>
+  <sys:String x:Key="Triggers_Label_MultiData_Description">Триггер срабатывает только при выполнении всех условий (использует привязки):</sys:String>
+  <sys:String x:Key="Triggers_CheckBox_Cond1">Условие 1</sys:String>
+  <sys:String x:Key="Triggers_CheckBox_Cond2">Условие 2</sys:String>
+  <sys:String x:Key="Triggers_Button_Multi">Кнопка активируется при выполнении обоих условий</sys:String>
+  <sys:String x:Key="Triggers_Label_MultiData_Info">Кнопка активируется только когда оба флажка установлены</sys:String>
+
+  <sys:String x:Key="Triggers_Group_Event_Header">Event Trigger (Триггер события)</sys:String>
+  <sys:String x:Key="Triggers_Label_Event_Description">Триггер срабатывает при возникновении события:</sys:String>
+  <sys:String x:Key="Triggers_Button_Event">Нажмите для анимации</sys:String>
+  <sys:String x:Key="Triggers_Label_Event_Info">Анимация запускается при Click, MouseEnter и MouseLeave</sys:String>
+
+  <sys:String x:Key="Triggers_Group_Compare_Header">Сравнение типов триггеров</sys:String>
+  <sys:String x:Key="Triggers_Label_Compare_Property">Property Trigger: реагирует на изменение свойств элемента</sys:String>
+  <sys:String x:Key="Triggers_Label_Compare_Data">Data Trigger: реагирует на изменение привязанных данных</sys:String>
+  <sys:String x:Key="Triggers_Label_Compare_MultiData">Multi Data Trigger: требует выполнения нескольких условий одновременно (работает с привязками)</sys:String>
+  <sys:String x:Key="Triggers_Label_Compare_Event">Event Trigger: реагирует на события и может запускать анимации</sys:String>
+
+</ResourceDictionary>
+

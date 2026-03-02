@@ -18,14 +18,14 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0"
-                   Text="Двусторонняя привязка"
+                   Text="{DynamicResource Page_TwoWay_Title}"
                    Style="{StaticResource PageTitle}" />
 
         <ScrollViewer Grid.Row="1">
             <StackPanel>
-                <GroupBox Header="Прямая двухсторонняя привязка между элементами">
+                <GroupBox Header="{DynamicResource TwoWay_Group_Direct_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Два TextBox связаны двухсторонней привязкой:"
+                        <TextBlock Text="{DynamicResource TwoWay_Label_TwoTextBoxes}"
                                    Style="{StaticResource SectionLabel}" />
                         <Grid>
                             <Grid.ColumnDefinitions>
@@ -34,13 +34,13 @@
                             </Grid.ColumnDefinitions>
                             <TextBox Grid.Column="0"
                                      Name="TwoWayTextBox1"
-                                     Text="Введите текст"
+                                     Text="{DynamicResource Default_TextBox_EnterText}"
                                      Margin="0,0,10,0" />
                             <TextBox Grid.Column="1"
                                      Text="{Binding Text, ElementName=TwoWayTextBox1, Mode=TwoWay}" />
                         </Grid>
 
-                        <TextBlock Text="Slider и TextBox связаны двухсторонней привязкой:"
+                        <TextBlock Text="{DynamicResource TwoWay_Label_SliderAndTextBox}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -60,9 +60,9 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Header="Двухсторонняя привязка через ViewModel">
+                <GroupBox Header="{DynamicResource TwoWay_Group_ViewModel_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Имя (изменения синхронизируются):"
+                        <TextBlock Text="{DynamicResource TwoWay_Label_Name}"
                                    Style="{StaticResource SectionLabel}" />
                         <Grid>
                             <Grid.ColumnDefinitions>
@@ -76,7 +76,7 @@
                                        Text="{Binding Name}" />
                         </Grid>
 
-                        <TextBlock Text="Фамилия:"
+                        <TextBlock Text="{DynamicResource TwoWay_Label_Surname}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -91,7 +91,7 @@
                                        Text="{Binding Surname}" />
                         </Grid>
 
-                        <TextBlock Text="Возраст:"
+                        <TextBlock Text="{DynamicResource TwoWay_Label_Age}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -106,7 +106,7 @@
                                        Text="{Binding Age, StringFormat='{}{0} лет'}" />
                         </Grid>
 
-                        <TextBlock Text="Email:"
+                        <TextBlock Text="{DynamicResource TwoWay_Label_Email}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -121,7 +121,7 @@
                                        Text="{Binding Email}" />
                         </Grid>
 
-                        <TextBlock Text="Slider (двухсторонняя привязка):"
+                        <TextBlock Text="{DynamicResource TwoWay_Label_Slider}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -138,7 +138,7 @@
                                      Text="{Binding SliderValue, Mode=TwoWay, StringFormat='{}{0:F1}'}" />
                         </Grid>
 
-                        <TextBlock Text="Полная информация (вычисляемое свойство):"
+                        <TextBlock Text="{DynamicResource TwoWay_Label_FullInfo}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <TextBlock Text="{Binding FullInfo}"
