@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MOeYD0VuQKU=",
+  "dgSpecHash": "tYuXNQN4K9U=",
   "success": true,
   "projectFilePath": "A:\\PolyTech\\ООП\\2 Семестр\\OOP_Lab1\\Lab_1\\Lab_1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Шалом\\.nuget\\packages\\codingseb.localization\\1.4.0\\codingseb.localization.1.4.0.nupkg.sha512",
+    "C:\\Users\\Шалом\\.nuget\\packages\\codingseb.localization.jsonfileloader\\1.4.0\\codingseb.localization.jsonfileloader.1.4.0.nupkg.sha512",
+    "C:\\Users\\Шалом\\.nuget\\packages\\codingseb.localization.wpf\\1.4.0\\codingseb.localization.wpf.1.4.0.nupkg.sha512",
+    "C:\\Users\\Шалом\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

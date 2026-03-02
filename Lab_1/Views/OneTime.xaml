@@ -17,14 +17,14 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0"
-                   Text="Одноразовая привязка (OneTime Binding)"
+                   Text="{Tr Page_OneTime_Title}"
                    Style="{StaticResource PageTitle}" />
 
         <ScrollViewer Grid.Row="1">
             <StackPanel>
-                <GroupBox Header="Прямая одноразовая привязка к элементам">
+                <GroupBox Header="{Tr OneTime_Group_Direct_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Одноразовая привязка (значение загружается один раз и не обновляется):"
+                        <TextBlock Text="{Tr OneTime_Label_DirectDescription}"
                                    Style="{StaticResource SectionLabel}" />
                         <Grid>
                             <Grid.ColumnDefinitions>
@@ -33,13 +33,12 @@
                             </Grid.ColumnDefinitions>
                             <TextBox Grid.Column="0"
                                      Name="OneTimeTextBox"
-                                     Text="Начальное значение"
                                      Margin="0,0,10,0" />
                             <TextBlock Grid.Column="1"
                                        Text="{Binding Text, ElementName=OneTimeTextBox, Mode=OneTime}" />
                         </Grid>
 
-                        <TextBlock Text="Изменение исходного TextBox не обновит TextBlock выше"
+                        <TextBlock Text="{Tr OneTime_Label_TextDoesNotUpdate}"
                                    FontStyle="Italic"
                                    Foreground="#5A6C7D"
                                    Margin="0,10,0,0"
@@ -47,9 +46,9 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Header="Одноразовая привязка через ViewModel">
+                <GroupBox Header="{Tr OneTime_Group_ViewModel_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Начальное значение (загружается один раз):"
+                        <TextBlock Text="{Tr OneTime_Label_InitialValue}"
                                    Style="{StaticResource SectionLabel}" />
                         <Grid>
                             <Grid.ColumnDefinitions>
@@ -66,7 +65,7 @@
                                        Foreground="#5D4037" />
                         </Grid>
 
-                        <TextBlock Text="Начальное число:"
+                        <TextBlock Text="{Tr OneTime_Label_InitialNumber}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -84,7 +83,7 @@
                                        Foreground="#5D4037" />
                         </Grid>
 
-                        <TextBlock Text="Статический текст (OneTime):"
+                        <TextBlock Text="{Tr OneTime_Label_StaticText}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <TextBlock Text="{Binding StaticText, Mode=OneTime}"

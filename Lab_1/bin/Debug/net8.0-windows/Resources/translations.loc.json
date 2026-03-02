@@ -1,0 +1,318 @@
+{
+  "MainWindow_Title": {
+    "ru": "Лабораторная работа 1 — Привязки данных",
+    "en": "Lab Work 1 — Data Bindings"
+  },
+  "Language_Label": {
+    "ru": "Язык:",
+    "en": "Language:"
+  },
+
+  "Tab_DefaultBinding": {
+    "ru": "Привязка по умолчанию",
+    "en": "Default binding"
+  },
+  "Tab_TwoWay": {
+    "ru": "Двухсторонняя привязка",
+    "en": "Two-way binding"
+  },
+  "Tab_OneTime": {
+    "ru": "Одноразовая привязка",
+    "en": "One-time binding"
+  },
+  "Tab_OneWay": {
+    "ru": "Односторонние привязки",
+    "en": "One-way bindings"
+  },
+  "Tab_Triggers": {
+    "ru": "Триггеры",
+    "en": "Triggers"
+  },
+
+  "Page_DefaultBinding_Title": {
+    "ru": "Привязка по умолчанию (Default Binding)",
+    "en": "Default binding"
+  },
+  "Page_TwoWay_Title": {
+    "ru": "Двусторонняя привязка",
+    "en": "Two-way binding"
+  },
+  "Page_OneTime_Title": {
+    "ru": "Одноразовая привязка (OneTime Binding)",
+    "en": "One-time binding"
+  },
+  "Page_OneWay_Title": {
+    "ru": "Односторонние привязки (OneWay Binding)",
+    "en": "One-way bindings"
+  },
+  "Page_Triggers_Title": {
+    "ru": "Триггеры (Triggers)",
+    "en": "Triggers"
+  },
+
+  "Default_Group_DirectBinding_Header": {
+    "ru": "Прямая привязка к элементам интерфейса",
+    "en": "Direct binding to UI elements"
+  },
+  "Default_Label_TextBoxToTextBlock": {
+    "ru": "Привязка TextBox к TextBlock (по умолчанию - TwoWay для TextBox):",
+    "en": "Bind TextBox to TextBlock (default - TwoWay for TextBox):"
+  },
+  "Default_TextBox_EnterText": {
+    "ru": "Введите текст",
+    "en": "Enter text"
+  },
+  "Default_Label_CheckBoxToTextBlock": {
+    "ru": "Привязка CheckBox к TextBlock:",
+    "en": "Bind CheckBox to TextBlock:"
+  },
+  "Default_CheckBox_Content_Selected": {
+    "ru": "Выбрано",
+    "en": "Selected"
+  },
+  "Default_Label_SliderToTextBlock": {
+    "ru": "Привязка Slider к TextBlock:",
+    "en": "Bind Slider to TextBlock:"
+  },
+
+  "Default_Label_ViewModel_Header": {
+    "ru": "Привязка через ViewModel",
+    "en": "Binding via ViewModel"
+  },
+  "Default_Label_TextBox_ViewModel": {
+    "ru": "Привязка TextBox к ViewModel (по умолчанию - TwoWay):",
+    "en": "Bind TextBox to ViewModel (default - TwoWay):"
+  },
+  "Default_Label_Numeric_ViewModel": {
+    "ru": "Привязка NumericUpDown (TextBox) к ViewModel:",
+    "en": "Bind NumericUpDown (TextBox) to ViewModel:"
+  },
+  "Default_Label_Date_ViewModel": {
+    "ru": "Привязка DatePicker к ViewModel:",
+    "en": "Bind DatePicker to ViewModel:"
+  },
+  "Default_Label_CheckBox_ViewModel": {
+    "ru": "Привязка CheckBox к ViewModel:",
+    "en": "Bind CheckBox to ViewModel:"
+  },
+
+  "TwoWay_Group_Direct_Header": {
+    "ru": "Прямая двухсторонняя привязка между элементами",
+    "en": "Direct two-way binding between elements"
+  },
+  "TwoWay_Label_TwoTextBoxes": {
+    "ru": "Два TextBox связаны двухсторонней привязкой:",
+    "en": "Two TextBoxes are connected with two-way binding:"
+  },
+  "TwoWay_Label_SliderAndTextBox": {
+    "ru": "Slider и TextBox связаны двухсторонней привязкой:",
+    "en": "Slider and TextBox are connected with two-way binding:"
+  },
+
+  "TwoWay_Group_ViewModel_Header": {
+    "ru": "Двухсторонняя привязка через ViewModel",
+    "en": "Two-way binding via ViewModel"
+  },
+  "TwoWay_Label_Name": {
+    "ru": "Имя (изменения синхронизируются):",
+    "en": "First name (changes are synchronized):"
+  },
+  "TwoWay_Label_Surname": {
+    "ru": "Фамилия:",
+    "en": "Last name:"
+  },
+  "TwoWay_Label_Age": {
+    "ru": "Возраст:",
+    "en": "Age:"
+  },
+  "TwoWay_Label_Email": {
+    "ru": "Email:",
+    "en": "Email:"
+  },
+  "TwoWay_Label_Slider": {
+    "ru": "Slider (двухсторонняя привязка):",
+    "en": "Slider (two-way binding):"
+  },
+  "TwoWay_Label_FullInfo": {
+    "ru": "Полная информация (вычисляемое свойство):",
+    "en": "Full information (calculated property):"
+  },
+
+  "OneTime_Group_Direct_Header": {
+    "ru": "Прямая одноразовая привязка к элементам",
+    "en": "Direct one-time binding to elements"
+  },
+  "OneTime_Label_DirectDescription": {
+    "ru": "Одноразовая привязка (значение загружается один раз и не обновляется):",
+    "en": "One-time binding (value is loaded once and not updated):"
+  },
+  "OneTime_TextBox_InitialText": {
+    "ru": "Начальное значение",
+    "en": "Initial value"
+  },
+  "OneTime_Label_TextDoesNotUpdate": {
+    "ru": "Изменение исходного TextBox не обновит TextBlock выше",
+    "en": "Changing the source TextBox will not update the TextBlock above"
+  },
+
+  "OneTime_Group_ViewModel_Header": {
+    "ru": "Одноразовая привязка через ViewModel",
+    "en": "One-time binding via ViewModel"
+  },
+  "OneTime_Label_InitialValue": {
+    "ru": "Начальное значение (загружается один раз):",
+    "en": "Initial value (loaded once):"
+  },
+  "OneTime_Label_InitialNumber": {
+    "ru": "Начальное число:",
+    "en": "Initial number:"
+  },
+  "OneTime_Label_StaticText": {
+    "ru": "Статический текст (OneTime):",
+    "en": "Static text (OneTime):"
+  },
+
+  "OneWay_Group_Direct_Header": {
+    "ru": "Прямая односторонняя привязка (от источника к цели)",
+    "en": "Direct one-way binding (from source to target)"
+  },
+  "OneWay_Label_SliderToTextBlock": {
+    "ru": "Slider → TextBlock (изменения Slider обновляют TextBlock):",
+    "en": "Slider → TextBlock (changes in Slider update TextBlock):"
+  },
+  "OneWay_Label_TextBoxToTextBlock": {
+    "ru": "TextBox → TextBlock (изменения TextBox обновляют TextBlock):",
+    "en": "TextBox → TextBlock (changes in TextBox update TextBlock):"
+  },
+  "OneWay_Label_TextDoesNotAffectSource": {
+    "ru": "Изменения в TextBlock не влияют на источник",
+    "en": "Changes in TextBlock do not affect the source"
+  },
+
+  "OneWay_Group_ViewModel_Header": {
+    "ru": "Односторонняя привязка через ViewModel",
+    "en": "One-way binding via ViewModel"
+  },
+  "OneWay_Label_SourceText": {
+    "ru": "Исходный текст (изменения обновляют отображение):",
+    "en": "Source text (changes update the view):"
+  },
+  "OneWay_Label_SourceNumber": {
+    "ru": "Исходное число:",
+    "en": "Source number:"
+  },
+  "OneWay_Label_ComputedValue": {
+    "ru": "Вычисляемое значение (обновляется автоматически):",
+    "en": "Computed value (updates automatically):"
+  },
+  "OneWay_Label_DisplayText": {
+    "ru": "Комбинированное отображение:",
+    "en": "Combined display:"
+  },
+  "OneWay_Label_SourcesUpdateTargets": {
+    "ru": "Изменения в источниках автоматически обновляют все элементы с OneWay привязкой",
+    "en": "Changes in sources automatically update all elements with OneWay binding"
+  },
+
+  "Triggers_Group_Property_Header": {
+    "ru": "Property Trigger (Триггер свойства)",
+    "en": "Property Trigger"
+  },
+  "Triggers_Label_Property_Description": {
+    "ru": "Изменение свойства элемента вызывает триггер:",
+    "en": "Changing a property of an element fires a trigger:"
+  },
+  "Triggers_Button_Hover": {
+    "ru": "Наведите курсор",
+    "en": "Hover mouse"
+  },
+  "Triggers_Label_Property_Info": {
+    "ru": "Триггер срабатывает при IsMouseOver=True и IsPressed=True",
+    "en": "Trigger fires when IsMouseOver=True and IsPressed=True"
+  },
+
+  "Triggers_Group_Data_Header": {
+    "ru": "Data Trigger (Триггер данных)",
+    "en": "Data Trigger"
+  },
+  "Triggers_Label_Data_Description": {
+    "ru": "Триггер срабатывает при изменении привязанного свойства:",
+    "en": "Trigger fires when the bound property changes:"
+  },
+  "Triggers_CheckBox_Enable": {
+    "ru": "Включить триггер",
+    "en": "Enable trigger"
+  },
+  "Triggers_Label_Data_BlockText": {
+    "ru": "Этот блок изменит цвет при установке флажка",
+    "en": "This block will change color when the checkbox is checked"
+  },
+  "Triggers_Label_Data_Info": {
+    "ru": "Триггер срабатывает при IsChecked=True",
+    "en": "Trigger fires when IsChecked=True"
+  },
+
+  "Triggers_Group_MultiData_Header": {
+    "ru": "Multi Data Trigger (Множественный триггер данных)",
+    "en": "Multi Data Trigger"
+  },
+  "Triggers_Label_MultiData_Description": {
+    "ru": "Триггер срабатывает только при выполнении всех условий (использует привязки):",
+    "en": "Trigger fires only when all conditions are met (uses bindings):"
+  },
+  "Triggers_CheckBox_Cond1": {
+    "ru": "Условие 1",
+    "en": "Condition 1"
+  },
+  "Triggers_CheckBox_Cond2": {
+    "ru": "Условие 2",
+    "en": "Condition 2"
+  },
+  "Triggers_Button_Multi": {
+    "ru": "Кнопка активируется при выполнении обоих условий",
+    "en": "Button becomes enabled when both conditions are met"
+  },
+  "Triggers_Label_MultiData_Info": {
+    "ru": "Кнопка активируется только когда оба флажка установлены",
+    "en": "Button is enabled only when both checkboxes are checked"
+  },
+
+  "Triggers_Group_Event_Header": {
+    "ru": "Event Trigger (Триггер события)",
+    "en": "Event Trigger"
+  },
+  "Triggers_Label_Event_Description": {
+    "ru": "Триггер срабатывает при возникновении события:",
+    "en": "Trigger fires when an event occurs:"
+  },
+  "Triggers_Button_Event": {
+    "ru": "Нажмите для анимации",
+    "en": "Click for animation"
+  },
+  "Triggers_Label_Event_Info": {
+    "ru": "Анимация запускается при Click, MouseEnter и MouseLeave",
+    "en": "Animation starts on Click, MouseEnter and MouseLeave"
+  },
+
+  "Triggers_Group_Compare_Header": {
+    "ru": "Сравнение типов триггеров",
+    "en": "Comparison of trigger types"
+  },
+  "Triggers_Label_Compare_Property": {
+    "ru": "Property Trigger: реагирует на изменение свойств элемента",
+    "en": "Property Trigger: reacts to changes of element properties"
+  },
+  "Triggers_Label_Compare_Data": {
+    "ru": "Data Trigger: реагирует на изменение привязанных данных",
+    "en": "Data Trigger: reacts to changes of bound data"
+  },
+  "Triggers_Label_Compare_MultiData": {
+    "ru": "Multi Data Trigger: требует выполнения нескольких условий одновременно (работает с привязками)",
+    "en": "Multi Data Trigger: requires multiple conditions to be met at once (works with bindings)"
+  },
+  "Triggers_Label_Compare_Event": {
+    "ru": "Event Trigger: реагирует на события и может запускать анимации",
+    "en": "Event Trigger: reacts to events and can start animations"
+  }
+}
+

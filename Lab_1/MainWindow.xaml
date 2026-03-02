@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Lab_1"
         xmlns:views="clr-namespace:Lab_1.Views"
         mc:Ignorable="d"
-        Title="Лабораторная работа 1 — Привязки данных"
+        Title="{Tr MainWindow_Title}"
         Height="520"
         Width="900"
         MinHeight="400"
@@ -20,20 +20,42 @@
                 <GradientStop Color="#E2E8F0" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TabControl>
-            <TabItem Header="Привязка по умолчанию">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Панель выбора языка -->
+        <StackPanel Grid.Row="0"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="16,8,16,0">
+            <TextBlock Text="{Tr Language_Label}"
+                       VerticalAlignment="Center"
+                       Margin="0,0,8,0"/>
+            <ComboBox Width="120"
+                      SelectedIndex="0"
+                      SelectionChanged="LanguageComboBox_SelectionChanged">
+                <ComboBoxItem Tag="ru" Content="Русский"/>
+                <ComboBoxItem Tag="en" Content="English"/>
+            </ComboBox>
+        </StackPanel>
+
+        <TabControl Grid.Row="1">
+            <TabItem Header="{Tr Tab_DefaultBinding}">
                 <views:Window1 />
             </TabItem>
-            <TabItem Header="Двухсторонняя привязка">
+            <TabItem Header="{Tr Tab_TwoWay}">
                 <views:Page2 />
             </TabItem>
-            <TabItem Header="Одноразовая привязка">
+            <TabItem Header="{Tr Tab_OneTime}">
                 <views:OneTime />
             </TabItem>
-            <TabItem Header="Односторонние привязки">
+            <TabItem Header="{Tr Tab_OneWay}">
                 <views:OneWay />
             </TabItem>
-            <TabItem Header="Триггеры">
+            <TabItem Header="{Tr Tab_Triggers}">
                 <views:Triggers />
             </TabItem>
         </TabControl>
