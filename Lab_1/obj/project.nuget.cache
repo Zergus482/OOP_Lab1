@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MOeYD0VuQKU=",
+  "dgSpecHash": "8WDmpfFQsBU=",
   "success": true,
   "projectFilePath": "A:\\PolyTech\\ООП\\2 Семестр\\OOP_Lab1\\Lab_1\\Lab_1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Шалом\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -18,15 +18,15 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0"
-                   Text="Привязка по умолчанию (Default Binding)"
+                   Text="{DynamicResource Page_DefaultBinding_Title}"
                    Style="{StaticResource PageTitle}" />
 
         <ScrollViewer Grid.Row="1">
             <StackPanel>
-                <GroupBox Header="Прямая привязка к элементам интерфейса"
+                <GroupBox Header="{DynamicResource Default_Group_DirectBinding_Header}"
                           Margin="0,0,0,20">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Привязка TextBox к TextBlock (по умолчанию - TwoWay для TextBox):"
+                        <TextBlock Text="{DynamicResource Default_Label_TextBoxToTextBlock}"
                                    Style="{StaticResource SectionLabel}" />
                         <Grid>
                             <Grid.ColumnDefinitions>
@@ -35,13 +35,13 @@
                             </Grid.ColumnDefinitions>
                             <TextBox Grid.Column="0"
                                      Name="DirectTextBox"
-                                     Text="Введите текст"
+                                     Text="{DynamicResource Default_TextBox_EnterText}"
                                      Margin="0,0,10,0" />
                             <TextBlock Grid.Column="1"
                                        Text="{Binding Text, ElementName=DirectTextBox}" />
                         </Grid>
 
-                        <TextBlock Text="Привязка CheckBox к TextBlock:"
+                        <TextBlock Text="{DynamicResource Default_Label_CheckBoxToTextBlock}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -51,14 +51,14 @@
                             </Grid.ColumnDefinitions>
                             <CheckBox Grid.Column="0"
                                       Name="DirectCheckBox"
-                                      Content="Выбрано"
+                                      Content="{DynamicResource Default_CheckBox_Content_Selected}"
                                       IsChecked="True"
                                       Margin="0,0,10,0" />
                             <TextBlock Grid.Column="1"
                                        Text="{Binding IsChecked, ElementName=DirectCheckBox}" />
                         </Grid>
 
-                        <TextBlock Text="Привязка Slider к TextBlock:"
+                        <TextBlock Text="{DynamicResource Default_Label_SliderToTextBlock}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -78,9 +78,9 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Header="Привязка через ViewModel">
+                <GroupBox Header="{DynamicResource Default_Label_ViewModel_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Привязка TextBox к ViewModel (по умолчанию - TwoWay):"
+                        <TextBlock Text="{DynamicResource Default_Label_TextBox_ViewModel}"
                                    Style="{StaticResource SectionLabel}" />
                         <Grid>
                             <Grid.ColumnDefinitions>
@@ -94,7 +94,7 @@
                                        Text="{Binding TextValue}" />
                         </Grid>
 
-                        <TextBlock Text="Привязка NumericUpDown (TextBox) к ViewModel:"
+                        <TextBlock Text="{DynamicResource Default_Label_Numeric_ViewModel}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -109,7 +109,7 @@
                                        Text="{Binding NumberValue, StringFormat='Число: {0}'}" />
                         </Grid>
 
-                        <TextBlock Text="Привязка DatePicker к ViewModel:"
+                        <TextBlock Text="{DynamicResource Default_Label_Date_ViewModel}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -124,7 +124,7 @@
                                        Text="{Binding DateValue, StringFormat='Дата: {0:dd.MM.yyyy}'}" />
                         </Grid>
 
-                        <TextBlock Text="Привязка CheckBox к ViewModel:"
+                        <TextBlock Text="{DynamicResource Default_Label_CheckBox_ViewModel}"
                                    Style="{StaticResource SectionLabel}"
                                    Margin="0,14,0,0" />
                         <Grid>
@@ -133,11 +133,11 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
                             <CheckBox Grid.Column="0"
-                                      Content="Выбрано"
+                                      Content="{DynamicResource Default_CheckBox_Content_Selected}"
                                       IsChecked="{Binding IsChecked}"
                                       Margin="0,0,10,0" />
                             <TextBlock Grid.Column="1"
-                                       Text="{Binding IsChecked, StringFormat='Состояние: {0}'}" />
+                                       Text="{Binding IsChecked}" />
                         </Grid>
                     </StackPanel>
                 </GroupBox>

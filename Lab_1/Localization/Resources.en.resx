@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="MainWindow_Title" xml:space="preserve">
+    <value>Lab Work 1 — Data Bindings</value>
+  </data>
+
+  <data name="Tab_DefaultBinding" xml:space="preserve">
+    <value>Default binding</value>
+  </data>
+  <data name="Tab_TwoWay" xml:space="preserve">
+    <value>Two-way binding</value>
+  </data>
+  <data name="Tab_OneTime" xml:space="preserve">
+    <value>One-time binding</value>
+  </data>
+  <data name="Tab_OneWay" xml:space="preserve">
+    <value>One-way bindings</value>
+  </data>
+  <data name="Tab_Triggers" xml:space="preserve">
+    <value>Triggers</value>
+  </data>
+
+  <data name="Page_DefaultBinding_Title" xml:space="preserve">
+    <value>Default binding</value>
+  </data>
+  <data name="Page_TwoWay_Title" xml:space="preserve">
+    <value>Two-way binding</value>
+  </data>
+  <data name="Page_OneTime_Title" xml:space="preserve">
+    <value>One-time binding</value>
+  </data>
+  <data name="Page_OneWay_Title" xml:space="preserve">
+    <value>One-way bindings</value>
+  </data>
+  <data name="Page_Triggers_Title" xml:space="preserve">
+    <value>Triggers</value>
+  </data>
+
+  <!-- Window1 (Default binding) -->
+  <data name="Default_Group_DirectBinding_Header" xml:space="preserve">
+    <value>Direct binding to UI elements</value>
+  </data>
+  <data name="Default_Label_TextBoxToTextBlock" xml:space="preserve">
+    <value>Bind TextBox to TextBlock (default - TwoWay for TextBox):</value>
+  </data>
+  <data name="Default_TextBox_EnterText" xml:space="preserve">
+    <value>Enter text</value>
+  </data>
+  <data name="Default_Label_CheckBoxToTextBlock" xml:space="preserve">
+    <value>Bind CheckBox to TextBlock:</value>
+  </data>
+  <data name="Default_CheckBox_Content_Selected" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="Default_Label_SliderToTextBlock" xml:space="preserve">
+    <value>Bind Slider to TextBlock:</value>
+  </data>
+  <data name="Default_Label_ViewModel_Header" xml:space="preserve">
+    <value>Binding via ViewModel</value>
+  </data>
+  <data name="Default_Label_TextBox_ViewModel" xml:space="preserve">
+    <value>Bind TextBox to ViewModel (default - TwoWay):</value>
+  </data>
+  <data name="Default_Label_Numeric_ViewModel" xml:space="preserve">
+    <value>Bind NumericUpDown (TextBox) to ViewModel:</value>
+  </data>
+  <data name="Default_Label_Date_ViewModel" xml:space="preserve">
+    <value>Bind DatePicker to ViewModel:</value>
+  </data>
+  <data name="Default_Label_CheckBox_ViewModel" xml:space="preserve">
+    <value>Bind CheckBox to ViewModel:</value>
+  </data>
+
+  <!-- Page2 (Two-way binding) -->
+  <data name="TwoWay_Group_Direct_Header" xml:space="preserve">
+    <value>Direct two-way binding between elements</value>
+  </data>
+  <data name="TwoWay_Label_TwoTextBoxes" xml:space="preserve">
+    <value>Two TextBoxes are connected with two-way binding:</value>
+  </data>
+  <data name="TwoWay_Label_SliderAndTextBox" xml:space="preserve">
+    <value>Slider and TextBox are connected with two-way binding:</value>
+  </data>
+  <data name="TwoWay_Group_ViewModel_Header" xml:space="preserve">
+    <value>Two-way binding via ViewModel</value>
+  </data>
+  <data name="TwoWay_Label_Name" xml:space="preserve">
+    <value>First name (changes are synchronized):</value>
+  </data>
+  <data name="TwoWay_Label_Surname" xml:space="preserve">
+    <value>Last name:</value>
+  </data>
+  <data name="TwoWay_Label_Age" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="TwoWay_Label_Email" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="TwoWay_Label_Slider" xml:space="preserve">
+    <value>Slider (two-way binding):</value>
+  </data>
+  <data name="TwoWay_Label_FullInfo" xml:space="preserve">
+    <value>Full information (calculated property):</value>
+  </data>
+
+  <!-- OneTime page -->
+  <data name="OneTime_Group_Direct_Header" xml:space="preserve">
+    <value>Direct one-time binding to elements</value>
+  </data>
+  <data name="OneTime_Label_DirectDescription" xml:space="preserve">
+    <value>One-time binding (value is loaded once and not updated):</value>
+  </data>
+  <data name="OneTime_TextBox_InitialText" xml:space="preserve">
+    <value>Initial value</value>
+  </data>
+  <data name="OneTime_Label_TextDoesNotUpdate" xml:space="preserve">
+    <value>Changing the source TextBox will not update the TextBlock above</value>
+  </data>
+  <data name="OneTime_Group_ViewModel_Header" xml:space="preserve">
+    <value>One-time binding via ViewModel</value>
+  </data>
+  <data name="OneTime_Label_InitialValue" xml:space="preserve">
+    <value>Initial value (loaded once):</value>
+  </data>
+  <data name="OneTime_Label_InitialNumber" xml:space="preserve">
+    <value>Initial number:</value>
+  </data>
+  <data name="OneTime_Label_StaticText" xml:space="preserve">
+    <value>Static text (OneTime):</value>
+  </data>
+
+  <!-- OneWay page -->
+  <data name="OneWay_Group_Direct_Header" xml:space="preserve">
+    <value>Direct one-way binding (from source to target)</value>
+  </data>
+  <data name="OneWay_Label_SliderToTextBlock" xml:space="preserve">
+    <value>Slider → TextBlock (changes in Slider update TextBlock):</value>
+  </data>
+  <data name="OneWay_Label_TextBoxToTextBlock" xml:space="preserve">
+    <value>TextBox → TextBlock (changes in TextBox update TextBlock):</value>
+  </data>
+  <data name="OneWay_Label_TextDoesNotAffectSource" xml:space="preserve">
+    <value>Changes in TextBlock do not affect the source</value>
+  </data>
+  <data name="OneWay_Group_ViewModel_Header" xml:space="preserve">
+    <value>One-way binding via ViewModel</value>
+  </data>
+  <data name="OneWay_Label_SourceText" xml:space="preserve">
+    <value>Source text (changes update the view):</value>
+  </data>
+  <data name="OneWay_Label_SourceNumber" xml:space="preserve">
+    <value>Source number:</value>
+  </data>
+  <data name="OneWay_Label_ComputedValue" xml:space="preserve">
+    <value>Computed value (updates automatically):</value>
+  </data>
+  <data name="OneWay_Label_DisplayText" xml:space="preserve">
+    <value>Combined display:</value>
+  </data>
+  <data name="OneWay_Label_SourcesUpdateTargets" xml:space="preserve">
+    <value>Changes in sources automatically update all elements with OneWay binding</value>
+  </data>
+
+  <!-- Triggers page -->
+  <data name="Triggers_Group_Property_Header" xml:space="preserve">
+    <value>Property Trigger</value>
+  </data>
+  <data name="Triggers_Label_Property_Description" xml:space="preserve">
+    <value>Changing a property of an element fires a trigger:</value>
+  </data>
+  <data name="Triggers_Button_Hover" xml:space="preserve">
+    <value>Hover mouse</value>
+  </data>
+  <data name="Triggers_Label_Property_Info" xml:space="preserve">
+    <value>Trigger fires when IsMouseOver=True and IsPressed=True</value>
+  </data>
+
+  <data name="Triggers_Group_Data_Header" xml:space="preserve">
+    <value>Data Trigger</value>
+  </data>
+  <data name="Triggers_Label_Data_Description" xml:space="preserve">
+    <value>Trigger fires when the bound property changes:</value>
+  </data>
+  <data name="Triggers_CheckBox_Enable" xml:space="preserve">
+    <value>Enable trigger</value>
+  </data>
+  <data name="Triggers_Label_Data_BlockText" xml:space="preserve">
+    <value>This block will change color when the checkbox is checked</value>
+  </data>
+  <data name="Triggers_Label_Data_Info" xml:space="preserve">
+    <value>Trigger fires when IsChecked=True</value>
+  </data>
+
+  <data name="Triggers_Group_MultiData_Header" xml:space="preserve">
+    <value>Multi Data Trigger</value>
+  </data>
+  <data name="Triggers_Label_MultiData_Description" xml:space="preserve">
+    <value>Trigger fires only when all conditions are met (uses bindings):</value>
+  </data>
+  <data name="Triggers_CheckBox_Cond1" xml:space="preserve">
+    <value>Condition 1</value>
+  </data>
+  <data name="Triggers_CheckBox_Cond2" xml:space="preserve">
+    <value>Condition 2</value>
+  </data>
+  <data name="Triggers_Button_Multi" xml:space="preserve">
+    <value>Button becomes enabled when both conditions are met</value>
+  </data>
+  <data name="Triggers_Label_MultiData_Info" xml:space="preserve">
+    <value>Button is enabled only when both checkboxes are checked</value>
+  </data>
+
+  <data name="Triggers_Group_Event_Header" xml:space="preserve">
+    <value>Event Trigger</value>
+  </data>
+  <data name="Triggers_Label_Event_Description" xml:space="preserve">
+    <value>Trigger fires when an event occurs:</value>
+  </data>
+  <data name="Triggers_Button_Event" xml:space="preserve">
+    <value>Click for animation</value>
+  </data>
+  <data name="Triggers_Label_Event_Info" xml:space="preserve">
+    <value>Animation starts on Click, MouseEnter and MouseLeave</value>
+  </data>
+
+  <data name="Triggers_Group_Compare_Header" xml:space="preserve">
+    <value>Comparison of trigger types</value>
+  </data>
+  <data name="Triggers_Label_Compare_Property" xml:space="preserve">
+    <value>Property Trigger: reacts to changes of element properties</value>
+  </data>
+  <data name="Triggers_Label_Compare_Data" xml:space="preserve">
+    <value>Data Trigger: reacts to changes of bound data</value>
+  </data>
+  <data name="Triggers_Label_Compare_MultiData" xml:space="preserve">
+    <value>Multi Data Trigger: requires multiple conditions to be met at once (works with bindings)</value>
+  </data>
+  <data name="Triggers_Label_Compare_Event" xml:space="preserve">
+    <value>Event Trigger: reacts to events and can start animations</value>
+  </data>
+</root>

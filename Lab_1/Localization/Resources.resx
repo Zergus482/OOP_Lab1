@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="MainWindow_Title" xml:space="preserve">
+    <value>Лабораторная работа 1 — Привязки данных</value>
+  </data>
+
+  <data name="Tab_DefaultBinding" xml:space="preserve">
+    <value>Привязка по умолчанию</value>
+  </data>
+  <data name="Tab_TwoWay" xml:space="preserve">
+    <value>Двухсторонняя привязка</value>
+  </data>
+  <data name="Tab_OneTime" xml:space="preserve">
+    <value>Одноразовая привязка</value>
+  </data>
+  <data name="Tab_OneWay" xml:space="preserve">
+    <value>Односторонние привязки</value>
+  </data>
+  <data name="Tab_Triggers" xml:space="preserve">
+    <value>Триггеры</value>
+  </data>
+
+  <data name="Page_DefaultBinding_Title" xml:space="preserve">
+    <value>Привязка по умолчанию (Default Binding)</value>
+  </data>
+  <data name="Page_TwoWay_Title" xml:space="preserve">
+    <value>Двусторонняя привязка</value>
+  </data>
+  <data name="Page_OneTime_Title" xml:space="preserve">
+    <value>Одноразовая привязка (OneTime Binding)</value>
+  </data>
+  <data name="Page_OneWay_Title" xml:space="preserve">
+    <value>Односторонние привязки (OneWay Binding)</value>
+  </data>
+  <data name="Page_Triggers_Title" xml:space="preserve">
+    <value>Триггеры (Triggers)</value>
+  </data>
+
+  <!-- Window1 (Default binding) -->
+  <data name="Default_Group_DirectBinding_Header" xml:space="preserve">
+    <value>Прямая привязка к элементам интерфейса</value>
+  </data>
+  <data name="Default_Label_TextBoxToTextBlock" xml:space="preserve">
+    <value>Привязка TextBox к TextBlock (по умолчанию - TwoWay для TextBox):</value>
+  </data>
+  <data name="Default_TextBox_EnterText" xml:space="preserve">
+    <value>Введите текст</value>
+  </data>
+  <data name="Default_Label_CheckBoxToTextBlock" xml:space="preserve">
+    <value>Привязка CheckBox к TextBlock:</value>
+  </data>
+  <data name="Default_CheckBox_Content_Selected" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="Default_Label_SliderToTextBlock" xml:space="preserve">
+    <value>Привязка Slider к TextBlock:</value>
+  </data>
+  <data name="Default_Label_ViewModel_Header" xml:space="preserve">
+    <value>Привязка через ViewModel</value>
+  </data>
+  <data name="Default_Label_TextBox_ViewModel" xml:space="preserve">
+    <value>Привязка TextBox к ViewModel (по умолчанию - TwoWay):</value>
+  </data>
+  <data name="Default_Label_Numeric_ViewModel" xml:space="preserve">
+    <value>Привязка NumericUpDown (TextBox) к ViewModel:</value>
+  </data>
+  <data name="Default_Label_Date_ViewModel" xml:space="preserve">
+    <value>Привязка DatePicker к ViewModel:</value>
+  </data>
+  <data name="Default_Label_CheckBox_ViewModel" xml:space="preserve">
+    <value>Привязка CheckBox к ViewModel:</value>
+  </data>
+
+  <!-- Page2 (Two-way binding) -->
+  <data name="TwoWay_Group_Direct_Header" xml:space="preserve">
+    <value>Прямая двухсторонняя привязка между элементами</value>
+  </data>
+  <data name="TwoWay_Label_TwoTextBoxes" xml:space="preserve">
+    <value>Два TextBox связаны двухсторонней привязкой:</value>
+  </data>
+  <data name="TwoWay_Label_SliderAndTextBox" xml:space="preserve">
+    <value>Slider и TextBox связаны двухсторонней привязкой:</value>
+  </data>
+  <data name="TwoWay_Group_ViewModel_Header" xml:space="preserve">
+    <value>Двухсторонняя привязка через ViewModel</value>
+  </data>
+  <data name="TwoWay_Label_Name" xml:space="preserve">
+    <value>Имя (изменения синхронизируются):</value>
+  </data>
+  <data name="TwoWay_Label_Surname" xml:space="preserve">
+    <value>Фамилия:</value>
+  </data>
+  <data name="TwoWay_Label_Age" xml:space="preserve">
+    <value>Возраст:</value>
+  </data>
+  <data name="TwoWay_Label_Email" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="TwoWay_Label_Slider" xml:space="preserve">
+    <value>Slider (двухсторонняя привязка):</value>
+  </data>
+  <data name="TwoWay_Label_FullInfo" xml:space="preserve">
+    <value>Полная информация (вычисляемое свойство):</value>
+  </data>
+
+  <!-- OneTime page -->
+  <data name="OneTime_Group_Direct_Header" xml:space="preserve">
+    <value>Прямая одноразовая привязка к элементам</value>
+  </data>
+  <data name="OneTime_Label_DirectDescription" xml:space="preserve">
+    <value>Одноразовая привязка (значение загружается один раз и не обновляется):</value>
+  </data>
+  <data name="OneTime_TextBox_InitialText" xml:space="preserve">
+    <value>Начальное значение</value>
+  </data>
+  <data name="OneTime_Label_TextDoesNotUpdate" xml:space="preserve">
+    <value>Изменение исходного TextBox не обновит TextBlock выше</value>
+  </data>
+  <data name="OneTime_Group_ViewModel_Header" xml:space="preserve">
+    <value>Одноразовая привязка через ViewModel</value>
+  </data>
+  <data name="OneTime_Label_InitialValue" xml:space="preserve">
+    <value>Начальное значение (загружается один раз):</value>
+  </data>
+  <data name="OneTime_Label_InitialNumber" xml:space="preserve">
+    <value>Начальное число:</value>
+  </data>
+  <data name="OneTime_Label_StaticText" xml:space="preserve">
+    <value>Статический текст (OneTime):</value>
+  </data>
+
+  <!-- OneWay page -->
+  <data name="OneWay_Group_Direct_Header" xml:space="preserve">
+    <value>Прямая односторонняя привязка (от источника к цели)</value>
+  </data>
+  <data name="OneWay_Label_SliderToTextBlock" xml:space="preserve">
+    <value>Slider → TextBlock (изменения Slider обновляют TextBlock):</value>
+  </data>
+  <data name="OneWay_Label_TextBoxToTextBlock" xml:space="preserve">
+    <value>TextBox → TextBlock (изменения TextBox обновляют TextBlock):</value>
+  </data>
+  <data name="OneWay_Label_TextDoesNotAffectSource" xml:space="preserve">
+    <value>Изменения в TextBlock не влияют на источник</value>
+  </data>
+  <data name="OneWay_Group_ViewModel_Header" xml:space="preserve">
+    <value>Односторонняя привязка через ViewModel</value>
+  </data>
+  <data name="OneWay_Label_SourceText" xml:space="preserve">
+    <value>Исходный текст (изменения обновляют отображение):</value>
+  </data>
+  <data name="OneWay_Label_SourceNumber" xml:space="preserve">
+    <value>Исходное число:</value>
+  </data>
+  <data name="OneWay_Label_ComputedValue" xml:space="preserve">
+    <value>Вычисляемое значение (обновляется автоматически):</value>
+  </data>
+  <data name="OneWay_Label_DisplayText" xml:space="preserve">
+    <value>Комбинированное отображение:</value>
+  </data>
+  <data name="OneWay_Label_SourcesUpdateTargets" xml:space="preserve">
+    <value>Изменения в источниках автоматически обновляют все элементы с OneWay привязкой</value>
+  </data>
+
+  <!-- Triggers page -->
+  <data name="Triggers_Group_Property_Header" xml:space="preserve">
+    <value>Property Trigger (Триггер свойства)</value>
+  </data>
+  <data name="Triggers_Label_Property_Description" xml:space="preserve">
+    <value>Изменение свойства элемента вызывает триггер:</value>
+  </data>
+  <data name="Triggers_Button_Hover" xml:space="preserve">
+    <value>Наведите курсор</value>
+  </data>
+  <data name="Triggers_Label_Property_Info" xml:space="preserve">
+    <value>Триггер срабатывает при IsMouseOver=True и IsPressed=True</value>
+  </data>
+
+  <data name="Triggers_Group_Data_Header" xml:space="preserve">
+    <value>Data Trigger (Триггер данных)</value>
+  </data>
+  <data name="Triggers_Label_Data_Description" xml:space="preserve">
+    <value>Триггер срабатывает при изменении привязанного свойства:</value>
+  </data>
+  <data name="Triggers_CheckBox_Enable" xml:space="preserve">
+    <value>Включить триггер</value>
+  </data>
+  <data name="Triggers_Label_Data_BlockText" xml:space="preserve">
+    <value>Этот блок изменит цвет при установке флажка</value>
+  </data>
+  <data name="Triggers_Label_Data_Info" xml:space="preserve">
+    <value>Триггер срабатывает при IsChecked=True</value>
+  </data>
+
+  <data name="Triggers_Group_MultiData_Header" xml:space="preserve">
+    <value>Multi Data Trigger (Множественный триггер данных)</value>
+  </data>
+  <data name="Triggers_Label_MultiData_Description" xml:space="preserve">
+    <value>Триггер срабатывает только при выполнении всех условий (использует привязки):</value>
+  </data>
+  <data name="Triggers_CheckBox_Cond1" xml:space="preserve">
+    <value>Условие 1</value>
+  </data>
+  <data name="Triggers_CheckBox_Cond2" xml:space="preserve">
+    <value>Условие 2</value>
+  </data>
+  <data name="Triggers_Button_Multi" xml:space="preserve">
+    <value>Кнопка активируется при выполнении обоих условий</value>
+  </data>
+  <data name="Triggers_Label_MultiData_Info" xml:space="preserve">
+    <value>Кнопка активируется только когда оба флажка установлены</value>
+  </data>
+
+  <data name="Triggers_Group_Event_Header" xml:space="preserve">
+    <value>Event Trigger (Триггер события)</value>
+  </data>
+  <data name="Triggers_Label_Event_Description" xml:space="preserve">
+    <value>Триггер срабатывает при возникновении события:</value>
+  </data>
+  <data name="Triggers_Button_Event" xml:space="preserve">
+    <value>Нажмите для анимации</value>
+  </data>
+  <data name="Triggers_Label_Event_Info" xml:space="preserve">
+    <value>Анимация запускается при Click, MouseEnter и MouseLeave</value>
+  </data>
+
+  <data name="Triggers_Group_Compare_Header" xml:space="preserve">
+    <value>Сравнение типов триггеров</value>
+  </data>
+  <data name="Triggers_Label_Compare_Property" xml:space="preserve">
+    <value>Property Trigger: реагирует на изменение свойств элемента</value>
+  </data>
+  <data name="Triggers_Label_Compare_Data" xml:space="preserve">
+    <value>Data Trigger: реагирует на изменение привязанных данных</value>
+  </data>
+  <data name="Triggers_Label_Compare_MultiData" xml:space="preserve">
+    <value>Multi Data Trigger: требует выполнения нескольких условий одновременно (работает с привязками)</value>
+  </data>
+  <data name="Triggers_Label_Compare_Event" xml:space="preserve">
+    <value>Event Trigger: реагирует на события и может запускать анимации</value>
+  </data>
+</root>

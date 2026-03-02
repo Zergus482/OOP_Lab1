@@ -12,17 +12,17 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0"
-                   Text="Триггеры (Triggers)"
+                   Text="{DynamicResource Page_Triggers_Title}"
                    Style="{StaticResource PageTitle}" />
 
         <ScrollViewer Grid.Row="1">
             <StackPanel>
-                <GroupBox Header="Property Trigger (Триггер свойства)">
+                <GroupBox Header="{DynamicResource Triggers_Group_Property_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Изменение свойства элемента вызывает триггер:"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Property_Description}"
                                    Style="{StaticResource SectionLabel}" />
                         <Button Name="PropertyTriggerButton"
-                                Content="Наведите курсор"
+                                Content="{DynamicResource Triggers_Button_Hover}"
                                 Width="200"
                                 Height="40">
                             <Button.Style>
@@ -52,7 +52,7 @@
                                 </Style>
                             </Button.Style>
                         </Button>
-                        <TextBlock Text="Триггер срабатывает при IsMouseOver=True и IsPressed=True"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Property_Info}"
                                    FontStyle="Italic"
                                    Foreground="#5A6C7D"
                                    Margin="0,10,0,0"
@@ -60,17 +60,17 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Header="Data Trigger (Триггер данных)">
+                <GroupBox Header="{DynamicResource Triggers_Group_Data_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Триггер срабатывает при изменении привязанного свойства:"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Data_Description}"
                                    Style="{StaticResource SectionLabel}" />
                         <CheckBox Name="DataTriggerCheckBox"
-                                  Content="Включить триггер" />
+                                  Content="{DynamicResource Triggers_CheckBox_Enable}" />
                         <Border Name="DataTriggerBorder"
                                 Background="LightGray"
                                 Padding="10"
                                 Margin="0,10,0,0">
-                            <TextBlock Text="Этот блок изменит цвет при установке флажка" />
+                            <TextBlock Text="{DynamicResource Triggers_Label_Data_BlockText}" />
                             <Border.Style>
                                 <Style TargetType="Border">
                                     <Style.Triggers>
@@ -87,7 +87,7 @@
                                 </Style>
                             </Border.Style>
                         </Border>
-                        <TextBlock Text="Триггер срабатывает при IsChecked=True"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Data_Info}"
                                    FontStyle="Italic"
                                    Foreground="#5A6C7D"
                                    Margin="0,10,0,0"
@@ -95,17 +95,17 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Header="Multi Data Trigger (Множественный триггер данных)">
+                <GroupBox Header="{DynamicResource Triggers_Group_MultiData_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Триггер срабатывает только при выполнении всех условий (использует привязки):"
+                        <TextBlock Text="{DynamicResource Triggers_Label_MultiData_Description}"
                                    Style="{StaticResource SectionLabel}" />
                         <CheckBox Name="MultiTriggerCheckBox1"
-                                  Content="Условие 1" />
+                                  Content="{DynamicResource Triggers_CheckBox_Cond1}" />
                         <CheckBox Name="MultiTriggerCheckBox2"
-                                  Content="Условие 2"
+                                  Content="{DynamicResource Triggers_CheckBox_Cond2}"
                                   Margin="0,5,0,0" />
                         <Button Name="MultiTriggerButton"
-                                Content="Кнопка активируется при выполнении обоих условий"
+                                Content="{DynamicResource Triggers_Button_Multi}"
                                 Width="400"
                                 Height="40"
                                 Margin="0,10,0,0">
@@ -136,7 +136,7 @@
                                 </Style>
                             </Button.Style>
                         </Button>
-                        <TextBlock Text="Кнопка активируется только когда оба флажка установлены"
+                        <TextBlock Text="{DynamicResource Triggers_Label_MultiData_Info}"
                                    FontStyle="Italic"
                                    Foreground="#5A6C7D"
                                    Margin="0,10,0,0"
@@ -144,12 +144,12 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Header="Event Trigger (Триггер события)">
+                <GroupBox Header="{DynamicResource Triggers_Group_Event_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Триггер срабатывает при возникновении события:"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Event_Description}"
                                    Style="{StaticResource SectionLabel}" />
                         <Button Name="EventTriggerButton"
-                                Content="Нажмите для анимации"
+                                Content="{DynamicResource Triggers_Button_Event}"
                                 Width="200"
                                 Height="40"
                                 Background="LightBlue">
@@ -190,7 +190,7 @@
                                 </EventTrigger>
                             </Button.Triggers>
                         </Button>
-                        <TextBlock Text="Анимация запускается при Click, MouseEnter и MouseLeave"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Event_Info}"
                                    FontStyle="Italic"
                                    Foreground="#5A6C7D"
                                    Margin="0,10,0,0"
@@ -198,15 +198,15 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Header="Сравнение типов триггеров">
+                <GroupBox Header="{DynamicResource Triggers_Group_Compare_Header}">
                     <StackPanel Margin="0,4,0,0">
-                        <TextBlock Text="Property Trigger: реагирует на изменение свойств элемента"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Compare_Property}"
                                    Style="{StaticResource SectionLabel}" />
-                        <TextBlock Text="Data Trigger: реагирует на изменение привязанных данных"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Compare_Data}"
                                    Style="{StaticResource SectionLabel}" />
-                        <TextBlock Text="Multi Data Trigger: требует выполнения нескольких условий одновременно (работает с привязками)"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Compare_MultiData}"
                                    Style="{StaticResource SectionLabel}" />
-                        <TextBlock Text="Event Trigger: реагирует на события и может запускать анимации"
+                        <TextBlock Text="{DynamicResource Triggers_Label_Compare_Event}"
                                    Style="{StaticResource SectionLabel}" />
                     </StackPanel>
                 </GroupBox>
