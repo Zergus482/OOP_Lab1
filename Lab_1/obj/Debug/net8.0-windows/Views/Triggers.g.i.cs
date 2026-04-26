@@ -110,7 +110,7 @@ namespace Lab_1.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Lab_1;component/views/triggers.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Lab_1;V1.0.0.0;component/views/triggers.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\Triggers.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

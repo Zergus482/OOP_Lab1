@@ -13,6 +13,7 @@ namespace Lab_1
             // Подключаем загрузчик JSON и загружаем файл переводов
             LocalizationLoader.Instance.FileLanguageLoaders.Add(new JsonFileLoader());
             LocalizationLoader.Instance.AddFile("Resources/translations.loc.json");
+            LocalizationLoader.Instance.AddFile("Resources/translations.extra.loc.json");
 
             // Язык по умолчанию
             Loc.Instance.CurrentLanguage = "ru";

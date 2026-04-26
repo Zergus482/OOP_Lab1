@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +8,16 @@ namespace Lab_1.ViewModels
 {
     public class Page2 : ViewModelBase
     {
-        private string _name = "Иван";
-        private string _surname = "Иванов";
+        private string _name = string.Empty;
+        private string _surname = string.Empty;
         private int _age = 25;
         private string _email = "ivan@example.com";
         private double _sliderValue = 50.0;
+
+        public Page2()
+        {
+            ApplyLocalizedDefaults();
+        }
 
         public string Name
         {
@@ -60,6 +65,18 @@ namespace Lab_1.ViewModels
             set => SetProperty(ref _sliderValue, value);
         }
 
-        public string FullInfo => $"{Name} {Surname}, {Age} лет, {Email}";
+        public string FullInfo => string.Format(Tr("Page2_FullInfo_Format"), Name, Surname, Age, Email);
+
+        protected override void OnLanguageChanged()
+        {
+            ApplyLocalizedDefaults();
+            OnPropertyChanged(nameof(FullInfo));
+        }
+
+        private void ApplyLocalizedDefaults()
+        {
+            Name = Tr("Page2_Default_Name");
+            Surname = Tr("Page2_Default_Surname");
+        }
     }
 }

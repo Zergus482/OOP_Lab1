@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +8,15 @@ namespace Lab_1.ViewModels
 {
     public class First_page : ViewModelBase
     {
-        private string _textValue = "Значение по умолчанию";
+        private string _textValue = string.Empty;
         private int _numberValue = 42;
         private DateTime _dateValue = DateTime.Now;
         private bool _isChecked = true;
+
+        public First_page()
+        {
+            ApplyLocalizedDefaults();
+        }
 
         public string TextValue
         {
@@ -35,6 +40,16 @@ namespace Lab_1.ViewModels
         {
             get => _isChecked;
             set => SetProperty(ref _isChecked, value);
+        }
+
+        protected override void OnLanguageChanged()
+        {
+            ApplyLocalizedDefaults();
+        }
+
+        private void ApplyLocalizedDefaults()
+        {
+            TextValue = Tr("Default_Sample_TextValue");
         }
     }
 }

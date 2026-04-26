@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\onetime.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\onetime.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\views\\onetime.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|solutionrelative:views\\onetime.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EA35A0-B92B-4BD8-A408-7F77B972F31D}|Lab_1.csproj|a:\\polytech\\\u043E\u043E\u043F\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\oop_lab1\\lab_1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,19 +83,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Window1.xaml.cs",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Window1.xaml.cs",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
-              "RelativeToolTip": "Views\\Window1.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAD4vxcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:54:58.996Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -139,8 +126,7 @@
               "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-26T19:24:49.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T19:24:49.712Z"
             },
             {
               "$type": "Document",
@@ -156,15 +142,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OneTime.xaml",
               "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\OneTime.xaml",
               "RelativeDocumentMoniker": "Views\\OneTime.xaml",
               "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\OneTime.xaml",
               "RelativeToolTip": "Views\\OneTime.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-02T16:13:57.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T16:13:57.855Z"
             },
             {
               "$type": "Document",
@@ -209,10 +194,22 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T19:24:48.333Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Window1.xaml.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
+              "RelativeToolTip": "Views\\Window1.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:54:58.996Z"
             },
             {
               "$type": "Document",
@@ -235,8 +232,7 @@
               "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-02T17:09:22.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T17:09:22.657Z"
             },
             {
               "$type": "Document",

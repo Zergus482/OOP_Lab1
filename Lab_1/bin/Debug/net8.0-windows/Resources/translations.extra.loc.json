@@ -1,0 +1,70 @@
+{
+  "Language_Name_Ru": {
+    "ru": "Русский",
+    "en": "Russian"
+  },
+  "Language_Name_En": {
+    "ru": "Английский",
+    "en": "English"
+  },
+  "Common_Value": {
+    "ru": "Значение",
+    "en": "Value"
+  },
+  "Common_Number": {
+    "ru": "Число",
+    "en": "Number"
+  },
+  "Common_Date": {
+    "ru": "Дата",
+    "en": "Date"
+  },
+  "Common_State": {
+    "ru": "Состояние",
+    "en": "State"
+  },
+  "Common_Years": {
+    "ru": "лет",
+    "en": "years"
+  },
+  "Default_Sample_TextValue": {
+    "ru": "Значение по умолчанию",
+    "en": "Default value"
+  },
+  "Default_TextBox_EnterText": {
+    "ru": "Введите текст",
+    "en": "Enter text"
+  },
+  "Page2_Default_Name": {
+    "ru": "Иван",
+    "en": "John"
+  },
+  "Page2_Default_Surname": {
+    "ru": "Иванов",
+    "en": "Johnson"
+  },
+  "Page2_FullInfo_Format": {
+    "ru": "{0} {1}, {2} лет, {3}",
+    "en": "{0} {1}, {2} years, {3}"
+  },
+  "OneTime_Default_InitialValue": {
+    "ru": "Это значение загружается один раз",
+    "en": "This value is loaded once"
+  },
+  "OneTime_Default_StaticText": {
+    "ru": "Статический текст",
+    "en": "Static text"
+  },
+  "OneWay_Default_SourceText": {
+    "ru": "Исходный текст",
+    "en": "Source text"
+  },
+  "OneWay_Default_ComputedPrefix": {
+    "ru": "Обработанный",
+    "en": "Processed"
+  },
+  "OneWay_Display_Format": {
+    "ru": "Текст: {0}, Число: {1}",
+    "en": "Text: {0}, Number: {1}"
+  }
+}

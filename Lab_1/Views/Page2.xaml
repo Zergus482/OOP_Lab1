@@ -1,4 +1,4 @@
-<UserControl x:Class="Lab_1.Views.Page2"
+﻿<UserControl x:Class="Lab_1.Views.Page2"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -101,8 +101,11 @@
                             <TextBox Grid.Column="0"
                                      Text="{Binding Age, Mode=TwoWay}"
                                      Margin="0,0,10,0" />
-                            <TextBlock Grid.Column="1"
-                                       Text="{Binding Age, StringFormat='{}{0} лет'}" />
+                            <TextBlock Grid.Column="1">
+                                <Run Text="{Binding Age}" />
+                                <Run Text=" " />
+                                <Run Text="{Binding TranslatedText, Source={Tr Common_Years}, Mode=OneWay}" />
+                            </TextBlock>
                         </Grid>
 
                         <TextBlock Text="{Tr TwoWay_Label_Email}"

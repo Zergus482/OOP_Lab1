@@ -5,11 +5,17 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using CodingSeb.Localization;
 
 namespace Lab_1.ViewModels
 {
     public class ViewModelBase : INotifyPropertyChanged
     {
+        protected ViewModelBase()
+        {
+            Loc.Instance.CurrentLanguageChanged += (_, _) => OnLanguageChanged();
+        }
+
         public event PropertyChangedEventHandler? PropertyChanged;
 
         protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
@@ -25,6 +31,15 @@ namespace Lab_1.ViewModels
             field = value;
             OnPropertyChanged(propertyName);
             return true;
+        }
+
+        protected virtual void OnLanguageChanged()
+        {
+        }
+
+        protected static string Tr(string key)
+        {
+            return Loc.Instance.Translate(key);
         }
     }
 }

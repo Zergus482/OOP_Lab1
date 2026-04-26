@@ -8,10 +8,16 @@ namespace Lab_1.ViewModels
 {
     public class OneWay : ViewModelBase
     {
-        private string _sourceText = "Исходный текст";
+        private string _sourceText = string.Empty;
         private int _sourceNumber = 200;
         private DateTime _currentTime = DateTime.Now;
-        private string _computedValue = "Вычисленное значение";
+        private string _computedValue = string.Empty;
+
+        public OneWay()
+        {
+            ApplyLocalizedDefaults();
+            UpdateComputedText();
+        }
 
         public string SourceText
         {
@@ -19,7 +25,7 @@ namespace Lab_1.ViewModels
             set
             {
                 SetProperty(ref _sourceText, value);
-                ComputedValue = $"Обработанный: {value}";
+                UpdateComputedText();
                 OnPropertyChanged(nameof(DisplayText));
             }
         }
@@ -46,6 +52,23 @@ namespace Lab_1.ViewModels
             set => SetProperty(ref _computedValue, value);
         }
 
-        public string DisplayText => $"Текст: {SourceText}, Число: {SourceNumber}";
+        public string DisplayText => string.Format(Tr("OneWay_Display_Format"), SourceText, SourceNumber);
+
+        protected override void OnLanguageChanged()
+        {
+            ApplyLocalizedDefaults();
+            UpdateComputedText();
+            OnPropertyChanged(nameof(DisplayText));
+        }
+
+        private void ApplyLocalizedDefaults()
+        {
+            SourceText = Tr("OneWay_Default_SourceText");
+        }
+
+        private void UpdateComputedText()
+        {
+            ComputedValue = $"{Tr("OneWay_Default_ComputedPrefix")}: {SourceText}";
+        }
     }
 }
