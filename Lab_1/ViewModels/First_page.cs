@@ -13,6 +13,10 @@ namespace Lab_1.ViewModels
         private DateTime _dateValue = DateTime.Now;
         private bool _isChecked = true;
 
+        private string _directTextValue = string.Empty;
+        private bool _directTextHasBeenEdited = false;
+        private bool _isUpdatingFromCode = false;  
+
         public First_page()
         {
             ApplyLocalizedDefaults();
@@ -42,6 +46,25 @@ namespace Lab_1.ViewModels
             set => SetProperty(ref _isChecked, value);
         }
 
+        public string DirectTextValue
+        {
+            get => _directTextValue;
+            set
+            {
+                if (_directTextValue != value)
+                {
+                    _directTextValue = value;
+
+                    if (!_isUpdatingFromCode)
+                    {
+                        _directTextHasBeenEdited = true;
+                    }
+
+                    OnPropertyChanged();
+                }
+            }
+        }
+
         protected override void OnLanguageChanged()
         {
             ApplyLocalizedDefaults();
@@ -50,6 +73,13 @@ namespace Lab_1.ViewModels
         private void ApplyLocalizedDefaults()
         {
             TextValue = Tr("Default_Sample_TextValue");
+
+            if (!_directTextHasBeenEdited)
+            {
+                _isUpdatingFromCode = true;
+                DirectTextValue = Tr("Default_TextBox_EnterText");
+                _isUpdatingFromCode = false;
+            }
         }
     }
 }

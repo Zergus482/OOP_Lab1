@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,18 +83,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Window1.xaml.cs",
-              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Window1.xaml.cs",
-              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
-              "RelativeToolTip": "Views\\Window1.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAjwBcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:54:58.996Z"
             },
             {
               "$type": "Document",
@@ -210,6 +198,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T19:24:48.333Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Window1.xaml.cs",
+              "ToolTip": "A:\\PolyTech\\\u041E\u041E\u041F\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\OOP_Lab1\\Lab_1\\Views\\Window1.xaml.cs",
+              "RelativeToolTip": "Views\\Window1.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:54:58.996Z"
             },
             {
               "$type": "Document",
