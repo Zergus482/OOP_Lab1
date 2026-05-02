@@ -73,7 +73,7 @@
                                     Value="50"
                                     Margin="0,0,10,0" />
                             <TextBlock Grid.Column="1"
-                                       Text="{Binding Value, ElementName=DirectSlider, StringFormat='Значение: {0:F1}'}" />
+                                       Text="{Binding Value, ElementName=DirectSlider, StringFormat=' {0:F1}'}" />
                         </Grid>
                     </StackPanel>
                 </GroupBox>
@@ -88,10 +88,11 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
                             <TextBox Grid.Column="0"
-                                     Text="{Binding TextValue}"
+                                     Name="Textbox2"
+                                     Text="{DynamicResource Default_text}"
                                      Margin="0,0,10,0" />
                             <TextBlock Grid.Column="1"
-                                       Text="{Binding TextValue}" />
+                                       Text="{Binding Text, ElementName=Textbox2}" />
                         </Grid>
 
                         <TextBlock Text="{DynamicResource Default_Label_Numeric_ViewModel}"
@@ -106,7 +107,7 @@
                                      Text="{Binding NumberValue}"
                                      Margin="0,0,10,0" />
                             <TextBlock Grid.Column="1"
-                                       Text="{Binding NumberValue, StringFormat='Число: {0}'}" />
+                                       Text="{Binding NumberValue, StringFormat=' {0}'}" />
                         </Grid>
 
                         <TextBlock Text="{DynamicResource Default_Label_Date_ViewModel}"

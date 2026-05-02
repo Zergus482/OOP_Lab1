@@ -35,6 +35,7 @@ namespace Lab_1.Localization
             "Default_Label_Numeric_ViewModel",
             "Default_Label_Date_ViewModel",
             "Default_Label_CheckBox_ViewModel",
+            "Default_text",
 
             "TwoWay_Group_Direct_Header",
             "TwoWay_Label_TwoTextBoxes",
@@ -89,6 +90,7 @@ namespace Lab_1.Localization
             "Triggers_Label_Event_Description",
             "Triggers_Button_Event",
             "Triggers_Label_Event_Info",
+            "Name",
 
             "Triggers_Group_Compare_Header",
             "Triggers_Label_Compare_Property",
